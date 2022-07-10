@@ -4,7 +4,7 @@ baseURL = "http://example.org/"
 theme = "LoveIt"
 
 # website title
-title = "My New Hugo Site"
+title = "LogischerMix"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode = ["en", "zh-CN", "fr"]
@@ -17,7 +17,7 @@ defaultContentLanguage = "en"
 [languages]
   [languages.en]
     weight = 1
-    title = "My New Hugo Site"
+    title = "LogischerMix"
     languageCode = "en"
     languageName = "English"
     [[languages.en.menu.main]]
@@ -43,6 +43,14 @@ defaultContentLanguage = "en"
       post = ""
       name = "Categories"
       url = "/categories/"
+      title = ""
+    [[languages.en.menu.main]]
+      weight = 4
+      identifier = "about"
+      pre = ""
+      post = ""
+      name = "About"
+      url = "/about/"
       title = ""
 
   [languages.zh-cn]
@@ -109,11 +117,12 @@ defaultContentLanguage = "en"
 
 # Author config
 [author]
-  name = "xxxx"
+  name = "LogischerMix | Justin Hu"
   email = ""
   link = ""
 
 # Menu config
+# Multilingual enabled,  menu configuration should be done in languages setting
 [menu]
   [[menu.main]]
     weight = 1
@@ -142,6 +151,7 @@ defaultContentLanguage = "en"
     name = "Categories"
     url = "/categories/"
     title = ""
+
 
 # Markup related configuration in Hugo
 [markup]
