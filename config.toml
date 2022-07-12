@@ -21,21 +21,13 @@ defaultContentLanguage = "en"
     languageCode = "en"
     languageName = "English"
     [[languages.en.menu.main]]
-      weight = 1
-      identifier = "posts"
-      pre = ""
-      post = ""
-      name = "Posts"
-      url = "/posts/"
-      title = ""
-    [[languages.en.menu.main]]
       weight = 2
-      identifier = "tags"
+      identifier = "Engineering"
       pre = ""
       post = ""
-      name = "Tags"
-      url = "/tags/"
-      title = ""
+      name = "Engineering"
+      url = "/posts/se/"
+      title = "Engineering"
     [[languages.en.menu.main]]
       weight = 3
       identifier = "categories"
@@ -46,12 +38,20 @@ defaultContentLanguage = "en"
       title = ""
     [[languages.en.menu.main]]
       weight = 4
+      identifier = "archive"
+      pre = ""
+      post = ""
+      name = "Archive"
+      url = "/posts/"
+      title = "archive"
+    [[languages.en.menu.main]]
+      weight = 5
       identifier = "about"
       pre = ""
       post = ""
       name = "About"
       url = "/about/"
-      title = ""
+      title = "about"
 
   [languages.zh-cn]
     weight = 2
@@ -123,34 +123,7 @@ defaultContentLanguage = "en"
 
 # Menu config
 # Multilingual enabled,  menu configuration should be done in languages setting
-[menu]
-  [[menu.main]]
-    weight = 1
-    identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "Posts"
-    url = "/posts/"
-    # title will be shown when you hover on this menu link
-    title = ""
-  [[menu.main]]
-    weight = 2
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "Tags"
-    url = "/tags/"
-    title = ""
-  [[menu.main]]
-    weight = 3
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
+
 
 
 # Markup related configuration in Hugo
