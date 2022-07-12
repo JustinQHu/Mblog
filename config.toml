@@ -21,15 +21,15 @@ defaultContentLanguage = "en"
     languageCode = "en"
     languageName = "English"
     [[languages.en.menu.main]]
-      weight = 2
+      weight = 1
       identifier = "Engineering"
       pre = ""
       post = ""
       name = "Engineering"
-      url = "/posts/se/"
+      url = "/se/"
       title = "Engineering"
     [[languages.en.menu.main]]
-      weight = 3
+      weight = 2
       identifier = "categories"
       pre = ""
       post = ""
@@ -37,15 +37,15 @@ defaultContentLanguage = "en"
       url = "/categories/"
       title = ""
     [[languages.en.menu.main]]
-      weight = 4
-      identifier = "archive"
+      weight = 3
+      identifier = "tags"
       pre = ""
       post = ""
-      name = "Archive"
-      url = "/posts/"
-      title = "archive"
+      name = "Tags"
+      url = "/tags/"
+      title = "tags"
     [[languages.en.menu.main]]
-      weight = 5
+      weight = 4
       identifier = "about"
       pre = ""
       post = ""
@@ -55,20 +55,28 @@ defaultContentLanguage = "en"
 
   [languages.zh-cn]
     weight = 2
-    title = "我的全新 Hugo 网站"
+    title = "LogischerMix"
     languageCode = "zh-CN"
     languageName = "简体中文"
     hasCJKLanguage = true
     [[languages.zh-cn.menu.main]]
       weight = 1
-      identifier = "posts"
+      identifier = "Engineering"
       pre = ""
       post = ""
-      name = "文章"
-      url = "/posts/"
-      title = ""
+      name = "技术"
+      url = "/se/"
+      title = "Engineering"
     [[languages.zh-cn.menu.main]]
       weight = 2
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "分类"
+      url = "/categories/"
+      title = ""
+    [[languages.zh-cn.menu.main]]
+      weight = 3
       identifier = "tags"
       pre = ""
       post = ""
@@ -76,27 +84,27 @@ defaultContentLanguage = "en"
       url = "/tags/"
       title = ""
     [[languages.zh-cn.menu.main]]
-      weight = 3
-      identifier = "categories"
+      weight = 4
+      identifier = "about"
       pre = ""
       post = ""
-      name = "分类"
-      url = "/categories/"
-      title = ""
+      name = "关于"
+      url = "/about/"
+      title = "about"
 
   [languages.fr]
     weight = 3
-    title = "Mon nouveau site Hugo"
+    title = "LogischerMix"
     languageCode = "fr"
     languageName = "Français"
     [[languages.fr.menu.main]]
       weight = 1
-      identifier = "posts"
+      identifier = "Engineering"
       pre = ""
       post = ""
-      name = "Postes"
-      url = "/posts/"
-      title = ""
+      name = "Ingénierie"
+      url = "/se/"
+      title = "Ingénierie"
     [[languages.fr.menu.main]]
       weight = 2
       identifier = "tags"
@@ -113,6 +121,14 @@ defaultContentLanguage = "en"
       post = ""
       url = "/categories/"
       title = ""
+    [[languages.fr.menu.main]]
+      weight = 4
+      identifier = "about"
+      pre = ""
+      post = ""
+      name = "à propos de"
+      url = "/about/"
+      title = "about"
 
 
 # Author config
