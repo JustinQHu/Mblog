@@ -4,9 +4,9 @@ date: 2022-06-17T16:58:47-04:00
 draft: false
 ---
 
-# The Name **LogischerMix**
+# The Name 
 
-The name of this site comes from the book [*Logicomix: An Epic Search for Truth*](https://www.amazon.ca/Logicomix-search-truth-Apostolos-Doxiadis/dp/1596914521),
+The name **LogischerMix** comes from the book [*Logicomix: An Epic Search for Truth*](https://www.amazon.ca/Logicomix-search-truth-Apostolos-Doxiadis/dp/1596914521),
 a fantastic book recommended by one of my professors at the business school.
 
 LogischerMix is the German translation of *Logicomix*, for the domain name of *Logicomix* has already 
