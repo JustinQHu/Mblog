@@ -30,6 +30,14 @@ defaultContentLanguage = "en"
       title = "Engineering"
     [[languages.en.menu.main]]
       weight = 2
+      identifier = "life"
+      pre = ""
+      post = ""
+      name = "Life"
+      url = "/li/"
+      title = "life"
+    [[languages.en.menu.main]]
+      weight = 3
       identifier = "categories"
       pre = ""
       post = ""
@@ -37,7 +45,7 @@ defaultContentLanguage = "en"
       url = "/categories/"
       title = ""
     [[languages.en.menu.main]]
-      weight = 3
+      weight = 4
       identifier = "tags"
       pre = ""
       post = ""
@@ -45,7 +53,7 @@ defaultContentLanguage = "en"
       url = "/tags/"
       title = "tags"
     [[languages.en.menu.main]]
-      weight = 4
+      weight = 5
       identifier = "about"
       pre = ""
       post = ""
@@ -69,6 +77,14 @@ defaultContentLanguage = "en"
       title = "Engineering"
     [[languages.zh-cn.menu.main]]
       weight = 2
+      identifier = "life"
+      pre = ""
+      post = ""
+      name = "人生"
+      url = "/li/"
+      title = "life"
+    [[languages.zh-cn.menu.main]]
+      weight = 3
       identifier = "categories"
       pre = ""
       post = ""
@@ -76,7 +92,7 @@ defaultContentLanguage = "en"
       url = "/categories/"
       title = ""
     [[languages.zh-cn.menu.main]]
-      weight = 3
+      weight = 4
       identifier = "tags"
       pre = ""
       post = ""
@@ -84,7 +100,7 @@ defaultContentLanguage = "en"
       url = "/tags/"
       title = ""
     [[languages.zh-cn.menu.main]]
-      weight = 4
+      weight = 5
       identifier = "about"
       pre = ""
       post = ""
