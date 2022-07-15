@@ -3,7 +3,7 @@ title: "A Long Journey, A New Endeavour"
 date: 2022-07-14T16:30:16-04:00
 draft: false
 categories: ['life', ]
-tags: ['life', 'study', 'immigration', 'Toronto']
+tags: ['life', 'study', 'immigration', 'Toronto', 'Canada']
 ---
 
 # A Journey to Toronto
