@@ -34,7 +34,7 @@ defaultContentLanguage = "en"
       pre = ""
       post = ""
       name = "Life"
-      url = "/li/"
+      url = "/life/"
       title = "life"
     [[languages.en.menu.main]]
       weight = 3
@@ -81,7 +81,7 @@ defaultContentLanguage = "en"
       pre = ""
       post = ""
       name = "人生"
-      url = "/li/"
+      url = "/life/"
       title = "life"
     [[languages.zh-cn.menu.main]]
       weight = 3
