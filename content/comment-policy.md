@@ -1,7 +1,7 @@
 ---
 title: "Comment Policy"
 date: 2022-07-16T11:57:50-04:00
-draft: true
+draft: false
 ---
 
 ## Our Website Comment Guidelines
