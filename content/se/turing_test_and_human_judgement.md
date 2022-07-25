@@ -2,6 +2,8 @@
 title: "Turing Test and Human Judgement"
 date: 2022-07-25T06:52:13-04:00
 draft: false
+categories: ['engineering', ]
+tags: ['engineering', 'AI', 'ML','reasoning']
 ---
 
 # Turing Test and Human Judgement
@@ -63,7 +65,7 @@ Why don't we design planes by mimicking the appearance of birds?
 The goal is to design a machine that can fly rather than a machine that looks like a bird?
 The appearance of birds is just superficiality, whereas aerodynamics is the underlying truth.
 
-## Conclusion
+## The End
 
 There are some fundamental truths in the designing of the Turing test and the designing of airplanes:
 >1. Judge a person by their behaviors instead of thoughts.
