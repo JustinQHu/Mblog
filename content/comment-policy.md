@@ -4,7 +4,7 @@ date: 2022-07-16T11:57:50-04:00
 draft: false
 ---
 
-## Our Website Comment Guidelines
+## Comment Guidelines
 
 We love comments about our articles, and we want to hear what you respectfully have to say. Remember to:
 
