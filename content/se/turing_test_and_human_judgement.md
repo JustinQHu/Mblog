@@ -68,6 +68,6 @@ The appearance of birds is just superficiality, whereas aerodynamics is the unde
 ## The End
 
 There are some fundamental truths in the designing of the Turing test and the designing of airplanes:
->1. Judge a person by their behaviors instead of thoughts.
->2. Be cautious with a person's words. Avoid being naive.
->3. Avoid superficiality and seek fundamental goals and truths.
+>1. Judge an object or a person by its behaviors instead of thoughts.
+>2. Be cautious with words. Avoid being naive.
+>3. Avoid superficiality and seek fundamental truth.
