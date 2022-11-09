@@ -6,7 +6,6 @@ categories: ['life', ]
 tags: ['life', 'architecture', 'city', 'Toronto', 'building']
 ---
 
-# The Grotesqueness of Modern Cities
 
 ## Boring and Plainness of Modern Cities 
 
