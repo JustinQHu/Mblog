@@ -6,7 +6,6 @@ categories: ['engineering', ]
 tags: ['engineering', 'AI', 'ML','reasoning']
 ---
 
-# Turing Test and Human Judgement
 
 The [Turing test](https://en.wikipedia.org/wiki/Turing_test) has been an essential and influential concept in the philosophy of artificial
 intelligence ever since Alan Turing introduced the test in 1950 to
@@ -15,6 +14,7 @@ test whether a machine is intelligent.
 The Turing test itself is simple, but the underlying reasoning process of Turing is profound.
 
 ## Thinking vs. Acting
+
 *Can machines think?* If computers can reason,  how can we tell? 
 
 Are trees intelligent?  Can they think as well? How can we tell?
