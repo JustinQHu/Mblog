@@ -26,7 +26,7 @@ defaultContentLanguage = "en"
       pre = ""
       post = ""
       name = "Engineering"
-      url = "/se/"
+      url = "/engr/"
       title = "Engineering"
     [[languages.en.menu.main]]
       weight = 2
@@ -73,7 +73,7 @@ defaultContentLanguage = "en"
       pre = ""
       post = ""
       name = "技术"
-      url = "/se/"
+      url = "/engr/"
       title = "Engineering"
     [[languages.zh-cn.menu.main]]
       weight = 2
@@ -119,7 +119,7 @@ defaultContentLanguage = "en"
       pre = ""
       post = ""
       name = "Ingénierie"
-      url = "/se/"
+      url = "/engr/"
       title = "Ingénierie"
     [[languages.fr.menu.main]]
       weight = 2
