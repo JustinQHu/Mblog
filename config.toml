@@ -46,6 +46,14 @@ defaultContentLanguage = "en"
       title = "life"
     [[languages.en.menu.main]]
       weight = 4
+      identifier = "travel"
+      pre = ""
+      post = ""
+      name = "Travel"
+      url = "/travel/"
+      title = "travel"
+    [[languages.en.menu.main]]
+      weight = 5
       identifier = "categories"
       pre = ""
       post = ""
@@ -53,7 +61,7 @@ defaultContentLanguage = "en"
       url = "/categories/"
       title = ""
     [[languages.en.menu.main]]
-      weight = 5
+      weight = 6
       identifier = "tags"
       pre = ""
       post = ""
@@ -61,7 +69,7 @@ defaultContentLanguage = "en"
       url = "/tags/"
       title = "tags"
     [[languages.en.menu.main]]
-      weight = 6
+      weight = 7
       identifier = "about"
       pre = ""
       post = ""
@@ -101,6 +109,14 @@ defaultContentLanguage = "en"
       title = "life"
     [[languages.zh-cn.menu.main]]
       weight = 4
+      identifier = "travel"
+      pre = ""
+      post = ""
+      name = "旅途"
+      url = "/travel/"
+      title = "travel"
+    [[languages.zh-cn.menu.main]]
+      weight = 5
       identifier = "categories"
       pre = ""
       post = ""
@@ -108,7 +124,7 @@ defaultContentLanguage = "en"
       url = "/categories/"
       title = ""
     [[languages.zh-cn.menu.main]]
-      weight = 5
+      weight = 6
       identifier = "tags"
       pre = ""
       post = ""
@@ -116,7 +132,7 @@ defaultContentLanguage = "en"
       url = "/tags/"
       title = ""
     [[languages.zh-cn.menu.main]]
-      weight = 6
+      weight = 7
       identifier = "about"
       pre = ""
       post = ""
@@ -155,6 +171,14 @@ defaultContentLanguage = "en"
       title = ""
     [[languages.es.menu.main]]
       weight = 4
+      identifier = "travel"
+      pre = ""
+      post = ""
+      name = "viajar"
+      url = "/travel/"
+      title = "travel"
+    [[languages.es.menu.main]]
+      weight = 5
       identifier = "categories"
       pre = ""
       post = ""
@@ -162,7 +186,7 @@ defaultContentLanguage = "en"
       url = "/categories/"
       title = ""
     [[languages.es.menu.main]]
-      weight = 5
+      weight = 6
       identifier = "tags"
       pre = ""
       post = ""
@@ -170,7 +194,7 @@ defaultContentLanguage = "en"
       url = "/tags/"
       title = ""
     [[languages.es.menu.main]]
-      weight = 6
+      weight = 7
       identifier = "about"
       pre = ""
       post = ""
