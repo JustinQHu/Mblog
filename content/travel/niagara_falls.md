@@ -17,16 +17,16 @@ Impressions:
 
 
 
-![Niagara Falls](/travel/niagara_falls/niagarafalls_1.jpeg "Niagara Falls")
-![Niagara Falls](/travel/niagara_falls/niagarafalls_2.jpeg "Niagara Falls")
-![Niagara Falls](/travel/niagara_falls/niagarafalls_3.jpeg "Niagara Falls")
-![Niagara Falls](/travel/niagara_falls/niagarafalls_4.jpeg "Niagara Falls")
-![Niagara Falls](/travel/niagara_falls/niagarafalls_5.jpeg "Niagara Falls")
-![Niagara Falls](/travel/niagara_falls/niagarafalls_6.jpeg "Niagara Falls")
-![Niagara Falls](/travel/niagara_falls/niagarafalls_7.jpeg "Niagara Falls")
-![Niagara Falls](/travel/niagara_falls/niagarafalls_8.jpeg "Niagara Falls")
-![Niagara Falls](/travel/niagara_falls/niagarafalls_9.jpeg "Niagara Falls")
-![Niagara Falls](/travel/niagara_falls/niagarafalls_10.jpeg "Niagara Falls")
-![Niagara Falls](/travel/niagara_falls/niagarafalls_11.jpeg "Niagara Falls")
-![Niagara Falls](/travel/niagara_falls/niagarafalls_12.jpeg "Niagara Falls")
+![Niagara Falls](/travel/niagara_falls/niagarafalls_1.jpeg "Niagara Falls")  
+![Niagara Falls](/travel/niagara_falls/niagarafalls_2.jpeg "Niagara Falls")  
+![Niagara Falls](/travel/niagara_falls/niagarafalls_3.jpeg "Niagara Falls")  
+![Niagara Falls](/travel/niagara_falls/niagarafalls_4.jpeg "Niagara Falls")  
+![Niagara Falls](/travel/niagara_falls/niagarafalls_5.jpeg "Niagara Falls")  
+![Niagara Falls](/travel/niagara_falls/niagarafalls_6.jpeg "Niagara Falls")  
+![Niagara Falls](/travel/niagara_falls/niagarafalls_7.jpeg "Niagara Falls")  
+![Niagara Falls](/travel/niagara_falls/niagarafalls_8.jpeg "Niagara Falls")  
+![Niagara Falls](/travel/niagara_falls/niagarafalls_9.jpeg "Niagara Falls")  
+![Niagara Falls](/travel/niagara_falls/niagarafalls_10.jpeg "Niagara Falls")  
+![Niagara Falls](/travel/niagara_falls/niagarafalls_11.jpeg "Niagara Falls")  
+![Niagara Falls](/travel/niagara_falls/niagarafalls_12.jpeg "Niagara Falls")  
 
