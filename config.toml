@@ -7,9 +7,9 @@ theme = "LoveIt"
 title = "LogischerMix"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
-languageCode = ["en", "zh-CN", "es"]
+#languageCode = "en", "zh-CN", "es"
 # language name ["English", "简体中文", "Français", "Polski", ...]
-languageName = ["English", "简体中文", "Español"]
+#languageName = "English", "简体中文", "Español"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "en"
