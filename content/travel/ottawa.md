@@ -3,7 +3,7 @@ title: "Ottawa"
 date: 2023-09-26T09:33:28-04:00  
 categories: ['travel', ]      
 tags: ['travel', 'Ottawa', 'Parliament Hill', 'Parliament', 'Notre-Dame Cathedral - Ottawa']    
-draft: true
+draft: false
 ---
 
 [Ottawa](https://en.wikipedia.org/wiki/Ottawa),  the capital city of Canada, is located at the confluence of Ottawa River
@@ -17,6 +17,7 @@ My general impressions of the city:
 > 3. Ottawa,  like other cities,  also has a severe homeless crisis, which damages the city's image a lot;
 > 4. Ottawa is little boring since the economy is mainly driven by the Canadian government, which happens to be the largest employer in Ottawa;
 > 5. Ottawa is public transit, [OC Transpo](https://www.octranspo.com/en/), is still developing;  good news is it accepts [Presto](https://www.prestocard.ca/en/) or Visa/Mastercard credit card;
+> 6. Ottawa is a more bilingual city and French is more widely used, compared to Toronto which is a more English city;
 
 ![Ottawa](/travel/ottawa/OttawaRiver.jpeg "Ottawa River and the East Block in Renovation")
 
@@ -65,4 +66,36 @@ but a ticket and security check are required.
 
 
 
-## Notre Dame Cathedral Basilica
+## Notre Dame Cathedral Basilica (Ottawa)
+
+[The Notre Dame Cathedral Basilica](https://en.wikipedia.org/wiki/Notre-Dame_Cathedral_Basilica) is the oldest church in Ottawa
+and one of the oldest church in Canada.
+
+
+
+![Notre Dame Cathedral Basilica](/travel/ottawa/NotreDame_1.jpeg "Notre Dame Cathedral Basilica")  
+
+![Notre Dame Cathedral Basilica](/travel/ottawa/NotreDame_2.jpeg "Notre Dame Cathedral Basilica")  
+
+![Notre Dame Cathedral Basilica](/travel/ottawa/NotreDame_3.jpeg "Notre Dame Cathedral Basilica")  
+
+![Notre Dame Cathedral Basilica](/travel/ottawa/NotreDame_4.jpeg "Notre Dame Cathedral Basilica")  
+
+![Notre Dame Cathedral Basilica](/travel/ottawa/NotreDame_5.jpeg "Notre Dame Cathedral Basilica")  
+
+![Notre Dame Cathedral Basilica](/travel/ottawa/NotreDame_6.jpeg "Notre Dame Cathedral Basilica")  
+
+![Notre Dame Cathedral Basilica](/travel/ottawa/NotreDame_7.jpeg "Notre Dame Cathedral Basilica")  
+
+![Notre Dame Cathedral Basilica](/travel/ottawa/NotreDame_8.jpeg "Notre Dame Cathedral Basilica")  
+
+![Notre Dame Cathedral Basilica](/travel/ottawa/NotreDame_9.jpeg "Notre Dame Cathedral Basilica")  
+
+![Notre Dame Cathedral Basilica](/travel/ottawa/NotreDame_10.jpeg "Notre Dame Cathedral Basilica")  
+
+![Notre Dame Cathedral Basilica](/travel/ottawa/NotreDame_11.jpeg "Notre Dame Cathedral Basilica")  
+
+![Notre Dame Cathedral Basilica](/travel/ottawa/NotreDame_12.jpeg "Notre Dame Cathedral Basilica")  
+
+
+
