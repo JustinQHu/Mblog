@@ -2,7 +2,7 @@
 title: "沃萨加海滩"
 date: 2023-09-19T10:00:50-04:00
 categories: ['旅途', ]  
-tags: ['旅途', '旅行', 'Wasaga Beach', 'Wasaga',]  
+tags: ['旅途', '旅行', 'Wasaga Beach', 'Wasaga','沃萨加海滩',]  
 draft: false
 ---
 
