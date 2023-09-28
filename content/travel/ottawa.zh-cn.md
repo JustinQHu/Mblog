@@ -1,8 +1,8 @@
 ---
 title: "渥太华"  
 date: 2023-09-26T09:33:28-04:00  
-categories: ['travel', ]      
-tags: ['travel', 'Ottawa', 'Parliament Hill', 'Parliament', 'Notre-Dame Cathedral - Ottawa', '渥太华','国会山']    
+categories: ['旅途', ]      
+tags: ['旅途', 'Ottawa', 'Parliament Hill', 'Parliament', 'Notre-Dame Cathedral - Ottawa', '渥太华','国会山']    
 draft: false
 ---
 

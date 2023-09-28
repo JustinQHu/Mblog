@@ -1,8 +1,8 @@
 ---
-title: "Montreal"  
+title: "蒙特利尔"  
 date: 2023-09-28T09:43:27-04:00  
-categories: ['travel', ]        
-tags: ['travel', 'Montreal','Old Montreal', 'Montréal', 'Notre-Dame', 'McGill', 'China Town',]  
+categories: ['旅途', ]        
+tags: ['旅途', '蒙特利尔', 'Montreal','Old Montreal', 'Montréal', 'Notre-Dame', 'McGill', 'China Town',]  
 draft: false
 ---
 
