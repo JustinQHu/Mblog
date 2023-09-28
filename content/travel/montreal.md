@@ -28,13 +28,32 @@ General Impressions:
 ![Montreal](/travel/montreal/Old_montreal_3.jpeg "Old Montreal")
 
 
-
 ## Notre Dame Basilica of Montréal
 
-One of the oldest churches in Canada,  the [Notre Dame Basilica of Montreal](https://en.wikipedia.org/wiki/Notre-Dame_Basilica_(Montreal)) is located in the heart of 
+As one of the oldest churches in Canada,  the [Notre Dame Basilica of Montreal](https://en.wikipedia.org/wiki/Notre-Dame_Basilica_(Montreal)) is located in the heart of 
 [Old Montreal](https://en.wikipedia.org/wiki/Old_Montreal) and is a must-visit. 
 
-![Montreal](/travel/montreal/Old_montreal_statue.jpeg "Statue in front of Notre Dame")
+![Montreal](/travel/montreal/Old_montreal_statue.jpeg "Statue in front of Notre Dame")  
+
+![Montreal](/travel/montreal/Montreal_notredame_1.jpeg "Notre Dame Basilica of Montréal")  
+
+![Montreal](/travel/montreal/Montreal_notredame_2.jpeg "Notre Dame Basilica of Montréal")  
+
+![Montreal](/travel/montreal/Montreal_notredame_3.jpeg "Notre Dame Basilica of Montréal")  
+
+![Montreal](/travel/montreal/Montreal_notredame_4.jpeg "Notre Dame Basilica of Montréal")  
+
+![Montreal](/travel/montreal/Montreal_notredame_5.jpeg "Notre Dame Basilica of Montréal")  
+
+![Montreal](/travel/montreal/Montreal_notredame_6.jpeg "Notre Dame Basilica of Montréal")  
+
+![Montreal](/travel/montreal/Montreal_notredame_7.jpeg "Notre Dame Basilica of Montréal")  
+
+![Montreal](/travel/montreal/Montreal_notredame_8.jpeg "Notre Dame Basilica of Montréal")  
+
+![Montreal](/travel/montreal/Montreal_notredame_9.jpeg "Notre Dame Basilica of Montréal")  
+
+![Montreal](/travel/montreal/Montreal_notredame_10.jpeg "Notre Dame Basilica of Montréal")  
 
 
 ## the Port of Montreal
