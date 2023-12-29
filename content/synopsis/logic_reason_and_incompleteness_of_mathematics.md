@@ -2,8 +2,8 @@
 title: "Logic, Reason, and the Incompleteness of Mathematics"
 date: 2022-11-08T19:41:30-05:00
 draft: false
-categories: ['life', ]
-tags: ['life', 'mathematics', 'logic', 'reason', 'incompleteness']
+categories: ['Synopsis', ]
+tags: ['Synopsis', 'mathematics', 'logic', 'reason', 'incompleteness']
 ---
 
 A fun fact is that the name of this website comes from the book: [*Logicomix: an Epic Search for Truth*](https://www.amazon.ca/Logicomix-search-truth-Apostolos-Doxiadis/dp/1596914521). 

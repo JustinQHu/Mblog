@@ -22,6 +22,14 @@ defaultContentLanguage = "en"
     languageName = "English"
     [[languages.en.menu.main]]
       weight = 1
+      identifier = "Synopsis"
+      pre = ""
+      post = ""
+      name = "Synopsis"
+      url = "/synopsis/"
+      title = "Synopsis"
+    [[languages.en.menu.main]]
+      weight = 2
       identifier = "Engineering"
       pre = ""
       post = ""
@@ -29,7 +37,7 @@ defaultContentLanguage = "en"
       url = "/engr/"
       title = "Engineering"
     [[languages.en.menu.main]]
-      weight = 2
+      weight = 3
       identifier = "Management"
       pre = ""
       post = ""
@@ -37,7 +45,7 @@ defaultContentLanguage = "en"
       url = "/mgmt/"
       title = "Management"
     [[languages.en.menu.main]]
-      weight = 3
+      weight = 4
       identifier = "life"
       pre = ""
       post = ""
@@ -45,7 +53,7 @@ defaultContentLanguage = "en"
       url = "/life/"
       title = "life"
     [[languages.en.menu.main]]
-      weight = 4
+      weight = 5
       identifier = "travel"
       pre = ""
       post = ""
@@ -53,7 +61,7 @@ defaultContentLanguage = "en"
       url = "/travel/"
       title = "travel"
     [[languages.en.menu.main]]
-      weight = 5
+      weight = 6
       identifier = "categories"
       pre = ""
       post = ""
@@ -61,7 +69,7 @@ defaultContentLanguage = "en"
       url = "/categories/"
       title = ""
     [[languages.en.menu.main]]
-      weight = 6
+      weight = 7
       identifier = "tags"
       pre = ""
       post = ""
@@ -69,7 +77,7 @@ defaultContentLanguage = "en"
       url = "/tags/"
       title = "tags"
     [[languages.en.menu.main]]
-      weight = 7
+      weight = 8
       identifier = "about"
       pre = ""
       post = ""
@@ -85,6 +93,14 @@ defaultContentLanguage = "en"
     hasCJKLanguage = true
     [[languages.zh-cn.menu.main]]
       weight = 1
+      identifier = "Synopsis"
+      pre = ""
+      post = ""
+      name = "评论"
+      url = "/synopsis/"
+      title = "Synopsis"
+    [[languages.zh-cn.menu.main]]
+      weight = 2
       identifier = "Engineering"
       pre = ""
       post = ""
@@ -92,7 +108,7 @@ defaultContentLanguage = "en"
       url = "/engr/"
       title = "Engineering"
     [[languages.zh-cn.menu.main]]
-      weight = 2
+      weight = 3
       identifier = "Management"
       pre = ""
       post = ""
@@ -100,7 +116,7 @@ defaultContentLanguage = "en"
       url = "/mgmt/"
       title = "Management"
     [[languages.zh-cn.menu.main]]
-      weight = 3
+      weight = 4
       identifier = "life"
       pre = ""
       post = ""
@@ -108,7 +124,7 @@ defaultContentLanguage = "en"
       url = "/life/"
       title = "life"
     [[languages.zh-cn.menu.main]]
-      weight = 4
+      weight = 5
       identifier = "travel"
       pre = ""
       post = ""
@@ -116,7 +132,7 @@ defaultContentLanguage = "en"
       url = "/travel/"
       title = "travel"
     [[languages.zh-cn.menu.main]]
-      weight = 5
+      weight = 6
       identifier = "categories"
       pre = ""
       post = ""
@@ -124,7 +140,7 @@ defaultContentLanguage = "en"
       url = "/categories/"
       title = ""
     [[languages.zh-cn.menu.main]]
-      weight = 6
+      weight = 7
       identifier = "tags"
       pre = ""
       post = ""
@@ -132,7 +148,7 @@ defaultContentLanguage = "en"
       url = "/tags/"
       title = ""
     [[languages.zh-cn.menu.main]]
-      weight = 7
+      weight = 8
       identifier = "about"
       pre = ""
       post = ""
@@ -147,6 +163,14 @@ defaultContentLanguage = "en"
     languageName = "Español"
     [[languages.es.menu.main]]
       weight = 1
+      identifier = "Synopsis"
+      pre = ""
+      post = ""
+      name = "Sinopsis"
+      url = "/sinopsis/"
+      title = "Sinopsis"
+    [[languages.es.menu.main]]
+      weight = 2
       identifier = "Engineering"
       pre = ""
       post = ""
@@ -154,7 +178,7 @@ defaultContentLanguage = "en"
       url = "/engr/"
       title = ""
     [[languages.es.menu.main]]
-      weight = 2
+      weight = 3
       identifier = "Management"
       name = "Gestión"
       pre = ""
@@ -162,7 +186,7 @@ defaultContentLanguage = "en"
       url = "/mgmt/"
       title = ""
     [[languages.es.menu.main]]
-      weight = 3
+      weight = 4
       identifier = "life"
       pre = ""
       post = ""
@@ -170,7 +194,7 @@ defaultContentLanguage = "en"
       url = "/life/"
       title = ""
     [[languages.es.menu.main]]
-      weight = 4
+      weight = 5
       identifier = "travel"
       pre = ""
       post = ""
@@ -178,7 +202,7 @@ defaultContentLanguage = "en"
       url = "/travel/"
       title = "travel"
     [[languages.es.menu.main]]
-      weight = 5
+      weight = 6
       identifier = "categories"
       pre = ""
       post = ""
@@ -186,7 +210,7 @@ defaultContentLanguage = "en"
       url = "/categories/"
       title = ""
     [[languages.es.menu.main]]
-      weight = 6
+      weight = 7
       identifier = "tags"
       pre = ""
       post = ""
@@ -194,7 +218,7 @@ defaultContentLanguage = "en"
       url = "/tags/"
       title = ""
     [[languages.es.menu.main]]
-      weight = 7
+      weight = 8
       identifier = "about"
       pre = ""
       post = ""
