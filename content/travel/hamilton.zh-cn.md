@@ -2,7 +2,7 @@
 title: "汉密尔顿"
 date: 2023-11-12T09:36:47-05:00
 draft: true
-categories: ['旅途', ]        
+categories: ['旅途', '2023']        
 tags: ['旅途','汉密尔顿', 'Hamilton', 'Dundurn Castle', 'Red Hill Valley',]  
 draft: false
 ---

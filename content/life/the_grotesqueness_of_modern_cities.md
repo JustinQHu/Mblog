@@ -2,7 +2,7 @@
 title: "The Grotesqueness of Modern Cities"
 date: 2022-09-05T10:51:09-04:00
 draft: false
-categories: ['life', ]
+categories: ['life', '2022']
 tags: ['life', 'architecture', 'city', 'Toronto', 'building']
 ---
 

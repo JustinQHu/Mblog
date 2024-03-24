@@ -2,7 +2,7 @@
 title: "Hamilton"
 date: 2023-11-12T09:36:47-05:00
 draft: true
-categories: ['travel', ]        
+categories: ['travel', '2023']        
 tags: ['travel', 'Hamilton', 'Dundurn Castle', 'Red Hill Valley',]  
 draft: false
 ---

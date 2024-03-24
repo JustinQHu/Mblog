@@ -1,7 +1,7 @@
 ---
 title: "Wasaga Beach"
 date: 2023-09-19T10:00:50-04:00
-categories: ['travel', ]  
+categories: ['travel', '2023']  
 tags: ['travel', 'Wasaga Beach', 'Wasaga',]  
 draft: false
 ---

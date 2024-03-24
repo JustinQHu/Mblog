@@ -2,7 +2,7 @@
 title: "漫漫征途，新征程"
 date: 2022-07-14T16:30:16-04:00
 draft: false
-categories: ['人生',]
+categories: ['人生', '2022']
 tags: ['人生', '学习', '移民', '多伦多', '加拿大']
 ---
 > 本站的所有文章都默认为英文，中文版本由Google Translate 翻译。  

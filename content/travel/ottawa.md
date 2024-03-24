@@ -1,7 +1,7 @@
 ---
 title: "Ottawa"  
 date: 2023-09-26T09:33:28-04:00  
-categories: ['travel', ]      
+categories: ['travel', '2023']      
 tags: ['travel', 'Ottawa', 'Parliament Hill', 'Parliament', 'Notre-Dame Cathedral - Ottawa']    
 draft: false
 ---

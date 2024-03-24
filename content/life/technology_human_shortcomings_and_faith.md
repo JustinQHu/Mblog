@@ -2,7 +2,7 @@
 title: "Technology, Human Shortcomings, and Faith"
 date: 2022-09-18T18:59:47-04:00
 draft: false
-categories: ['life', ]
+categories: ['life', '2022']
 tags: ['life', 'faith', 'technology', 'human_shortcomings']
 ---
 

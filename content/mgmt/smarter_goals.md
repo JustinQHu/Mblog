@@ -1,7 +1,7 @@
 ---
 title: "SMARTER Goals"  
 date: 2023-09-18T09:56:51-04:00  
-categories: ['management', ]  
+categories: ['management', '2023']  
 tags: ['management', 'Goal', 'Goal-Setting', 'SMART', 'SMARTER', 'Management', 'goal', 'goal-setting',]  
 draft: false
 ---

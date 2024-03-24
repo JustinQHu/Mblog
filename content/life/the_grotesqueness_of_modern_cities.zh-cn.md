@@ -2,7 +2,7 @@
 title: "现代城市的怪诞"
 date: 2022-09-05T10:51:09-04:00
 draft: false
-categories: ['人生', ]
+categories: ['人生', '2022']
 tags: ['人生', '建筑','城市', '多伦多',]
 ---
 > 本站的所有文章都默认为英文，中文版本由Google Translate 翻译。  

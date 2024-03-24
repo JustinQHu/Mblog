@@ -1,7 +1,7 @@
 ---
 title: "Niagara Falls"
 date: 2023-09-22T09:15:49-04:00  
-categories: ['travel', ]    
+categories: ['travel', '2023']    
 tags: ['travel', 'Niagara Falls', 'The Rainbow bridge', 'Niagara River']    
 draft: false
 ---

@@ -2,7 +2,7 @@
 title: "Logic, Reason, and the Incompleteness of Mathematics"
 date: 2022-11-08T19:41:30-05:00
 draft: false
-categories: ['Synopsis', ]
+categories: ['Synopsis', '2022']
 tags: ['Synopsis', 'mathematics', 'logic', 'reason', 'incompleteness']
 ---
 

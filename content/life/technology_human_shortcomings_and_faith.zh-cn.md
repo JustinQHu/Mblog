@@ -2,7 +2,7 @@
 title: "技术，人类的缺陷，和信仰"
 date: 2022-11-18T17:04:56-05:00
 draft: false
-categories: ['人生', ]
+categories: ['人生', '2022']
 tags: ['人生', '信仰', '技术', '人类的缺陷']
 ---
 > 本站的所有文章都默认为英文，中文版本由Google Translate 翻译。  

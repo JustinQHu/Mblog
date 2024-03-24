@@ -2,7 +2,7 @@
 title: "Meditations: Stoicism and a Roman Emperor's Defense against Human Shortcomings"  
 date: 2023-12-25T15:41:37-05:00  
 draft: false  
-categories: ['Synopsis', ]  
+categories: ['Synopsis', '2023']  
 tags: ['Synopsis', 'Meditations', 'Stoicism', 'Marcus Aurelius', 'Roman Emperor']
 ---
 

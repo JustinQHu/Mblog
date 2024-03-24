@@ -1,7 +1,7 @@
 ---
 title: "SMARTER 目标"  
 date: 2023-09-18T11:01:16-04:00  
-categories: ['管理', ]    
+categories: ['管理', '2023']    
 tags: ['管理', '目标', '目标设定', 'SMART', 'SMARTER', ]    
 draft: false
 ---

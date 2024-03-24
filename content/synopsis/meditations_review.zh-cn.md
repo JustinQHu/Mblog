@@ -2,7 +2,7 @@
 title: "沉思录：斯多葛主义和罗马皇帝对人类缺点的防御"  
 date: 2023-12-25T15:41:37-05:00  
 draft: false  
-categories: ['评论', ]  
+categories: ['评论', '2023']  
 tags: ['评论', '沉思录', '斯多葛主义', '罗马皇帝 Marcus Aurelius', '罗马皇帝']
 ---
 

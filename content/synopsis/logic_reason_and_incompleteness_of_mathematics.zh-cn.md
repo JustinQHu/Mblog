@@ -2,7 +2,7 @@
 title: "逻辑、推理和数学的不完备性"
 date: 2022-11-18T17:09:07-05:00
 draft: false
-categories: ['评论', ]
+categories: ['评论', '2022']
 tags: ['评论', '数学', '逻辑', '推理', '不完备行']
 ---
 > 本站的所有文章都默认为英文，中文版本由Google Translate 翻译。  
