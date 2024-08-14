@@ -37,6 +37,8 @@ features and interfaces.
 Terraform relies on different service providers to actual manage infrastructure resources on different platforms. 
 Service provider is actually a module that use upstream platform APIs to provision resources. 
 
+![Terraform Flow](/se/terraform/terraform_flow.png "Terraform Flow")
+
 There are 5 steps to deploy infrastructure with Terraform:
 > 1. Scope - Identify the infrastructure for the project 
 > 2. Author - Write the configuration for the infrastructure
@@ -295,6 +297,9 @@ CONTAINER ID   IMAGE          COMMAND                  CREATED              STAT
 ```
 
 visit localhost:8000 in the browser:
+
+![Terraform NGINX](/se/terraform/terraform_docker_nginx.png "Terraform Run NGINX")
+
 
 
 ### Terraform Provisions Azure Cloud Resource 
