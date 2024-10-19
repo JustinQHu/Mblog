@@ -8,8 +8,8 @@ draft: false
 
 ## What is FastAPI?
 
-According to its official website, 
-> [FastAPI](https://fastapi.tiangolo.com/) is a modern, fast (high-performance), web framework for building APIs with 
+According to its official website,
+> [FastAPI](https://fastapi.tiangolo.com/) is a modern, fast (high-performance), web framework for building APIs with
 > Python 3.8+ based on standard Python type hints.
 
 ## Hello World with FastAPI
@@ -20,7 +20,6 @@ According to its official website,
 
 >Python3.8+
 
-
 #### Install FastAPI
 
 ```shell
@@ -28,12 +27,15 @@ pip install fastapi
 ```
 
 #### Install ASGI Server
+
 ```shell
 pip install "uvicorn[standard]"
 ```
 
 ### Define a FastAPI app
+
 Create a file *main.py* with:
+
 ```python
 from typing import Union
 
@@ -43,7 +45,9 @@ app = FastAPI()
 ```
 
 ### Create API Endpoints
+
 In *main.py* add the following 2 endpoints implementation
+
 ```python
 @app.get("/")
 def read_root():
@@ -56,7 +60,9 @@ def read_item(item_id: int, q: Union[str, None] = None):
 ```
 
 ### API Endpoints with Automatic Validation
+
 final code looks like this:
+
 ```python
 from typing import Union
 from fastapi import FastAPI
@@ -88,27 +94,29 @@ def update_item(book_id: int, book: Book):
 
 ```
 
-
 ### Test
+
 Run the server with
+
 ```shell
 uvicorn main:app --reload
 ```
 
 >INFO:     Will watch for changes in these directories: ['/Users/xxx/PycharmProjects/pythonProject']  
-INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)  
+INFO:     Uvicorn running on <http://127.0.0.1:8000> (Press CTRL+C to quit)  
 INFO:     Started reloader process [99265] using WatchFiles  
 INFO:     Started server process [99267]  
 INFO:     Waiting for application startup.  
 INFO:     Application startup complete.  
 
-Open it in the browser and test the endpoints defined above. 
-
+Open it in the browser and test the endpoints defined above.
 
 ### API Documentation
-FastAPI has interactive API docs built-in by default. 
+
+FastAPI has interactive API docs built-in by default.
 
 #### Interactive Docs Powered by Swagger UI
+
 Go to */docs*,  we can the interactive API docs:
 
 ![Automatic API Documentation](/se/fastapi101/apidoc_swaggerui.png "Automatic Interactive Doc with Swagger UI")
@@ -119,16 +127,16 @@ Go to */redoc*,  we can see another automatic API documentation:
 
 ![Automatic API Documentation](/se/fastapi101/apidoc_redoc.png "Automatic Doc with Redoc")
 
-
 ## General Thoughts
 
 FastAPI is generally a lightweight framework to develop APIs with Python. Some attractive advantages of FastAPI
 for me compared to a comprehensive framework like [Django](https://www.djangoproject.com/):
+>
 >1. fast to set up;  fast to build APIs, prototypes, and POCs
 >2. automatic validation with [Pydantic](https://docs.pydantic.dev/latest/)
 >3. Automatic API docs
 
 I would definitely consider FastAPI to be my first option if I want to test some ideas quick,  and honest I think
-it's also quite attractive to build production systems as well, given more and more web applications are 
-single page applications with [React](https://react.dev/), [Vue](https://vuejs.org/), or [Angular](https://angularjs.org/) 
-that only requires APIs from backend. Django is a little too heavy for such case.
+it's also quite attractive to build production systems as well, given more and more web applications are
+single page applications with [React](https://react.dev/), [Vue](https://vuejs.org/), or [Angular](https://angularjs.org/)
+that only requires APIs from backend. Django is a little too heavy for such case
