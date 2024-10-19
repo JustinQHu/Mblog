@@ -2,7 +2,7 @@
 title: "Turing Test and Human Judgement"
 date: 2022-07-25T06:52:13-04:00
 draft: false
-categories: ['engineering', ]
+categories: ['engineering', '2022']
 tags: ['engineering', 'AI', 'ML','reasoning']
 ---
 

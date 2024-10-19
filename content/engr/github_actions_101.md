@@ -2,7 +2,7 @@
 title: "GitHub Actions and Why It's Gaining Popularity over Jenkins as Default CI/CD Tool "
 date: 2024-10-19T15:50:06-04:00
 draft: false
-categories: ['engineering']
+categories: ['engineering','2024']
 tags: ['engineering', 'CI/CD', 'GitHub Actions','Jenkins']
 ---
 

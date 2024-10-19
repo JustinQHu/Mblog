@@ -1,7 +1,7 @@
 ---
 title: "Faster Python: Python 3.11 Release and Future Roadmap"
 date: 2022-12-03T19:59:44-05:00
-categories: ['engineering', ]
+categories: ['engineering', '2022']
 tags: ['engineering', 'python', 'Cpython','programming', 'python3.11']
 draft: false
 ---

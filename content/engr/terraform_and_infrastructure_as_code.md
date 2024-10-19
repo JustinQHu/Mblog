@@ -2,7 +2,7 @@
 title: "Terraform and Infrastructure as Code"  
 date: 2024-08-10T20:36:29-04:00  
 draft: false  
-categories: ['engineering',]  
+categories: ['engineering','2024']  
 tags: ['engineering', 'infrastructure as code', 'IaC', 'terraform']
 ---
 

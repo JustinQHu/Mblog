@@ -1,7 +1,7 @@
 ---
 title: "Apache Kafka以及与RabbitMQ的比较"  
 date: 2022-12-23T14:01:10-05:00
-categories: ['工程','技术']   
+categories: ['工程','技术', '2022']   
 tags: ['工程','技术', 'kafka', 'Apache Kafka', 'RabbitMQ', '消息队列', '事件流式处理', '事件流']   
 draft: false
 ---

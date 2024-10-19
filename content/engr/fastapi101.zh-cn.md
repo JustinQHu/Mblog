@@ -1,7 +1,7 @@
 ---
 title: "FastAPI 初探"
 date: 2023-12-01T16:03:50-05:00
-categories: ['工程','技术'] 
+categories: ['工程','技术','2023'] 
 tags: ['工程','技术', 'python', 'fastapi','FastAPI', 'web server']
 draft: false
 ---

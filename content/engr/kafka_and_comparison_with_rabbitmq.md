@@ -1,7 +1,7 @@
 ---
 title: "Apache Kafka and A Comparison with RabbitMQ"  
 date: 2022-12-23T11:01:01-05:00  
-categories: ['engineering', ]  
+categories: ['engineering', '2022' ]  
 tags: ['engineering', 'kafka', 'Apache Kafka','RabbitMQ', 'mq', 'event streaming']  
 draft: false
 ---

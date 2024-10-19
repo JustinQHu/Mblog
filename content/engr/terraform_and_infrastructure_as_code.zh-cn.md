@@ -2,7 +2,7 @@
 title: "Terraform 和基础设施即代码"
 date: 2024-10-19T17:17:04-04:00
 draft: false
-categories: ['工程','技术'] 
+categories: ['工程','技术', '2024'] 
 tags: ['工程','技术', 'IaC', 'Terraform', '基础设施即代码'] 
 ---
 

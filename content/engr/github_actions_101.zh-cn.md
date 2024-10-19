@@ -2,7 +2,7 @@
 title: "GitHub Actions以及它为何比Jenkins更受欢迎并成为默认CI/CD工具"
 date: 2024-10-19T17:16:19-04:00
 draft: false
-categories: ['工程','技术'] 
+categories: ['工程','技术','2024'] 
 tags: ['工程','技术', 'Github Actions', 'CI/CD', 'Jenkins', '持续集成'] 
 ---
 

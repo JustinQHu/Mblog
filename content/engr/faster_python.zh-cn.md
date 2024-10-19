@@ -1,7 +1,7 @@
 ---
 title: "更快的 Python：Python 3.11 发布和未来路线图"
 date: 2022-12-03T20:48:55-05:00
-categories: ['工程','技术' ]
+categories: ['工程','技术' ,'2022']
 tags: ['技术', 'python', 'Cpython','编程', 'python3.11']
 draft: false
 ---

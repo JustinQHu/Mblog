@@ -2,7 +2,7 @@
 title: "如何创建自签名SSL证书"  
 date: 2024-01-28T14:09:39-05:00  
 draft: false  
-categories: ['工程','技术']  
+categories: ['工程','技术','2024']  
 tags: ['工程','技术', '安全', '网站开发', 'SSL', 'SSL证书',  '自签名SSL证书', HTTPS']  
 ---
 

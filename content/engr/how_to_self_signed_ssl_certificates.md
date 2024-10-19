@@ -2,7 +2,7 @@
 title: "How to Create Self-Signed SSL Certificates"  
 date: 2024-01-26T14:09:39-05:00  
 draft: false  
-categories: ['engineering']  
+categories: ['engineering','2024']  
 tags: ['engineering', 'Security', 'Web Development', 'SSL', 'SSL Certificate',  'Self-Signed SSL Certificate', HTTPS']  
 ---
 
