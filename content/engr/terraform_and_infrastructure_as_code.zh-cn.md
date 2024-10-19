@@ -1,62 +1,53 @@
 ---
-title: "Terraform and Infrastructure as Code"  
-date: 2024-08-10T20:36:29-04:00  
-draft: false  
-categories: ['engineering',]  
-tags: ['engineering', 'infrastructure as code', 'IaC', 'terraform']
+title: "Terraform 和基础设施即代码"
+date: 2024-10-19T17:17:04-04:00
+draft: false
+categories: ['工程','技术'] 
+tags: ['工程','技术', 'IaC', 'Terraform', '基础设施即代码'] 
 ---
 
-## Infrastructure as Code
+## 基础设施即代码
 
-### Challenge of Provisioning Cloud Resources
+### 配置云资源的挑战
 
-Manual Provisioning of infrastructure at scale is slow and cumbersome. Provisioning infrastructure through
-point-and-click GUIs is error-prone, inefficient, and doesn't scale. The cloud was built for
-automation, but writing custom scripts for every service and every use case is time-consuming
-and costly for development teams.
+大规模手动配置基础设施既缓慢又繁琐。通过点击式 GUI 配置基础设施容易出错、效率低下且无法扩展。云是为自动化而构建的，但为每项服务和每个用例编写自定义脚本对于开发团队来说既耗时又昂贵。
 
-### Solution
+### 解决方案
 
-Infrastructure as Code(IaC) to automate infrastructure provisioning on any cloud.  Multi-cloud provisioning
-should be automated with declarative infrastructure as code. There should be a simple, easy to learn
-configuration language to allow people to define infrastructure resources such that infrastructure can be codified,
-shared, versioned, and executed with a consistent workflow across all environments.
+基础设施即代码 (IaC) 可在任何云上自动配置基础设施。多云配置应使用声明式基础设施即代码实现自动化。应该有一种简单易学的配置语言，允许人们定义基础设施资源，以便可以在所有环境中以一致的工作流对基础设施进行编码、共享、版本控制和执行。
 
 ## Terraform
 
-There are dozens of different tools for infrastructure as code, and
-Terraform,  developed by HashiCorp, is one of the most popular IaC tool in the industry now.  
+基础设施即代码有几十种不同的工具，HashiCorp 开发的 Terraform 是目前业内最受欢迎的 IaC 工具之一。
 
-Alternatively,  OpenTofu is an open-source tool forked from terraform 1.5.6 and offers similar
-features and interfaces.
+另外，OpenTofu 是从 terraform 1.5.6 分叉的开源工具，提供类似的功能和界面。
 
-## Terraform Quick Start
+## Terraform 快速入门
 
-### How Terraform Works
+### Terraform 的工作原理
 
-Terraform relies on different service providers to actual manage infrastructure resources on different platforms.
-Service provider is actually a module that use upstream platform APIs to provision resources.
+Terraform 依赖不同的服务提供商来实际管理不同平台上的基础设施资源。服务提供商实际上是一个使用上游平台 API 来配置资源的模块。
 
 ![Terraform Flow](/se/terraform/terraform_flow.png "Terraform Flow")
+使用 Terraform 部署基础设施有 5 个步骤：
 
-There are 5 steps to deploy infrastructure with Terraform:
 >
-> 1. Scope - Identify the infrastructure for the project
-> 2. Author - Write the configuration for the infrastructure
-> 3. Initialize - Install the plugins Terraform needs to manage the infrastructure
-> 4. Plan - Preview the changes Terraform will make to match your configuration
-> 5. Apply - Make the planned changes
+>1.范围 - 确定项目的基础设施  
+>2.作者 - 编写基础设施的配置  
+>3.初始化 - 安装 Terraform 管理基础设施所需的插件  
+>4.计划 - 预览 Terraform 将进行的更改以匹配您的配置  
+>5.应用 - 进行计划的更改
 
-### Install Terraform CLI
+### 安装 Terraform CLI
 
-Use Homebrew to install Terraform on Mac
+使用 Homebrew 在 Mac 上安装 Terraform
 
 ```shell
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
 ```
 
-Verify the Installation
+验证安装
 
 ```shell
 terraform -help
@@ -70,25 +61,25 @@ started with Terraform, stick with the common commands. For the
 other commands, please read the help and docs before usage.
 ```
 
-### Terraform Provisions a NGINX server via Docker
+### Terraform 通过 Docker 配置 NGINX 服务器
 
-#### Prerequisite
+#### 先决条件
 
-1. Docker Desktop Installed and Running
-2. Terraform Installed
+1.Docker Desktop 已安装并正在运行  
+2.Terraform 已安装
 
-#### Create a director for the project
+#### 为项目创建目录
 
-Create and navigate to a director for the project
+为项目创建目录并切换到该目录
 
 ```shell
 mkdir learn-terraform-docker-container
 cd learn-terraform-docker-container
 ```
 
-#### Create Terraform configuration file
+#### 创建 Terraform 配置文件
 
-In the working directory,  create a fill named **main.tf** with the following configuration
+在工作目录中，使用以下配置创建名为 ***main.tf*** 的配置文件
 
 ```shell
 terraform {
@@ -117,9 +108,8 @@ resource "docker_container" "nginx" {
   }
 }
 
-```
 
-#### Initialize the Project
+#### 初始化项目
 
 ```shell
 terraform init
@@ -140,9 +130,7 @@ rerun this command to reinitialize your working directory. If you forget, other
 commands will detect it and remind you to do so if necessary.
 ```
 
-This will install the required plugins for the providers in the configuration.
-
-#### Plan and Apply the config
+#### 规划和应用配置
 
 ```shell
 terraform plan
@@ -212,8 +200,7 @@ Plan: 2 to add, 0 to change, 0 to destroy.
 
 ```
 
-This will preview what kind of changes terraform will apply.
-If everything looks good, we can proceed to apply it.   It will require an input of 'Yes' to confirm
+这将预览 terraform 将应用哪种更改。如果一切看起来不错，我们可以继续应用它。需要输入“是”以确认
 
 ```shell
 terraform apply
@@ -296,7 +283,7 @@ docker_container.nginx: Creation complete after 3s [id=89fb0fe9d56082357e1059cf4
 
 ```
 
-#### Verify Nginx Container Being Created
+#### 验证正在创建的 Nginx 容器
 
 ```shell
 docker ps
@@ -305,45 +292,45 @@ CONTAINER ID   IMAGE          COMMAND                  CREATED              STAT
 89fb0fe9d560   a72860cb95fd   "/docker-entrypoint.…"   About a minute ago   Up About a minute   0.0.0.0:8000->80/tcp   tutorial
 ```
 
-visit localhost:8000 in the browser:
+在浏览器中访问 localhost:8000:
 
 ![Terraform NGINX](/se/terraform/terraform_docker_nginx.png "Terraform Run NGINX")
 
-### Terraform Provisions Azure Cloud Resource
+### Terraform 提供 Azure 云资源
 
-#### Prerequisite
+#### 先决条件
 
-1. Terraform installed
-2. An active Azure subscription (a free subscription would work)
-3. Azure CLI installed (brew install for MacOS)
+1.Terraform 安装  
+2.有效的 Azure 订阅（免费订阅即可）  
+3.Azure CLI 安装（适用于 MacOS 的 brew install）  
 
 ```shell
 brew update && brew install azure-cli
 ```
 
-#### Authenticate using Azure CLI
+#### 使用 Azure CLI 进行身份验证
 
-##### Login
+##### 登录
 
 ```shell
 az login
 ```
 
-or using this command with non default browser
+或使用此命令与非默认浏览器
 
 ```shell
 az login --use-device-code
 ```
 
-##### Set the Subscription
+##### 设置订阅
 
 ```shell
 az account set --subscription "your-subscription-id"
 ```
 
-##### Create a Service Principal
+##### 创建服务主体
 
-A Service Principal is an application within Azure Active Directory with the authentication tokens Terraform needs to perform actions on your behalf.
+服务主体是 Azure Active Directory 中的应用程序，具有 Terraform 代表您执行操作所需的身份验证令牌。
 
 ```shell
 az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/<SUBSCRIPTION_ID>"
@@ -358,7 +345,7 @@ The output includes credentials that you must protect. Be sure that you do not i
 }
 ```
 
-##### Set the Environment Variables
+##### 设置环境变量
 
 ```shell
 export ARM_CLIENT_ID="<APPID_VALUE>"
@@ -367,16 +354,16 @@ export ARM_SUBSCRIPTION_ID="<SUBSCRIPTION_ID>"
 export ARM_TENANT_ID="<TENANT_VALUE>"
 ```
 
-#### Create a Project Folder
+##### 创建项目文件夹
 
 ```shell
 mkdir learn-terraform-azure
 cd learn-terraform-azure
 ```
 
-#### Create Terraform CConfiguration
+###### 创建 Terraform 配置
 
-Create a file named **main.tf** with the following content
+创建一个名为 ***main.tf*** 的文件，内容如下
 
 ```shell
 # Configure the Azure provider
@@ -402,33 +389,33 @@ resource "azurerm_resource_group" "rg" {
 
 ```
 
-#### Initialize and Apply Terraform Configuration
+##### 初始化并应用 Terraform 配置
 
-Initialize
+初始化
 
 ```shell
 terraform init
 ```
 
-Format the config
+格式化配置
 
 ```shell
 terraform fmt
 ```
 
-Validate the config
+验证配置
 
 ```shell
 terraform validate
 ```
 
-Apply the config
+应用配置
 
 ```shell
 terraform apply
 ```
 
-Inspect your state
+检查您的状态
 
 ```shell
 terraform show
@@ -473,7 +460,6 @@ Subcommands:
     show                Show a resource in the state
 ```
 
-## Terraform Language
+## Terraform 语言
 
-Terraform language is an easy to learn and simple to use language to declare infrastructure resources.
-Can read about it in details at:  <https://developer.hashicorp.com/terraform/language>
+Terraform 语言是一种易于学习且易于使用的语言，用于声明基础设施资源。详细信息可参见：<https://developer.hashicorp.com/terraform/language>
