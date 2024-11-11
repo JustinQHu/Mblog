@@ -1,0 +1,21 @@
+main:
+  - identifier: essay
+    name: Essay
+    url: /essay/
+    weight: 10
+  - identifier: engineering
+    name: Engineering
+    url: /engr/
+    weight: 20
+  - identifier: management
+    name: Management
+    url: /mgmt/
+    weight: 30
+  - identifier: travel
+    name: Travel
+    url: /travel/
+    weight: 40
+  - identifier: search
+    name: Search
+    url: /search/
+    weight: 50

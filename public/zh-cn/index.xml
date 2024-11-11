@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LogischerMix</title>
+    <link>http://localhost:52512/zh-cn/</link>
+    <description>Recent content on LogischerMix</description>
+    <image>
+      <title>LogischerMix</title>
+      <url>http://localhost:52512/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:52512/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.138.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 31 Jul 2022 20:48:13 -0400</lastBuildDate>
+    <atom:link href="http://localhost:52512/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:52512/zh-cn/visited_places/</link>
+      <pubDate>Sun, 31 Jul 2022 20:48:13 -0400</pubDate>
+      <guid>http://localhost:52512/zh-cn/visited_places/</guid>
+      <description>&lt;iframe src=&#34;https://www.google.com/maps/d/u/0/embed?mid=1g9FSghwPSnpOvGU-cVUIMmHCAgsCmO0&amp;amp;ehbc=2E312F&#34; style=&#34;position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;&#34;&gt;
+    Your browser doesn&#39;t support iframes!
+&lt;/iframe&gt;</description>
+    </item>
+    <item>
+      <title>Comment Policy</title>
+      <link>http://localhost:52512/zh-cn/comment-policy/</link>
+      <pubDate>Sat, 16 Jul 2022 11:57:50 -0400</pubDate>
+      <guid>http://localhost:52512/zh-cn/comment-policy/</guid>
+      <description>&lt;h2 id=&#34;comment-guidelines&#34;&gt;Comment Guidelines&lt;/h2&gt;
+&lt;p&gt;We love comments about our articles, and we want to hear what you respectfully have to say. Remember to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Be nice, courteous, and stay on topic;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;No profanity, name-calling/personal attacks, or inappropriate content;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you harass others or joke about tragedies, you will be blocked;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;No spam posts, or posts trying to sell anything.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The primary rule here is pretty simple: Treat others with the same respect you’d want for yourself. Trolling and posting inappropriate content will lead to you being banned, and we don’t want that. Play nice.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>关于</title>
+      <link>http://localhost:52512/zh-cn/about/</link>
+      <pubDate>Fri, 15 Jul 2022 09:06:36 -0400</pubDate>
+      <guid>http://localhost:52512/zh-cn/about/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本站的所有文章都默认为英文，中文版本由Google Translate 翻译。&lt;br&gt;
+由于时间限制，并非所有文章都有中文版本。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;名字&#34;&gt;名字&lt;/h1&gt;
+&lt;p&gt;LogischerMix 这个名字来自于 &lt;a href=&#34;https://www.amazon.ca/Logicomix-search-truth-Apostolos-Doxiadis/dp/1596914521&#34;&gt;&lt;em&gt;Logicomix: An Epic Search for Truth&lt;/em&gt;&lt;/a&gt; 这本书，这本书是我在商学院的一位教授推荐的。&lt;/p&gt;
+&lt;p&gt;LogischerMix 是 Logicomix 的德语翻译，因为 Logicomix 的域名已经被注册了，相信书名也是受版权保护的。&lt;/p&gt;
+&lt;h1 id=&#34;技术栈&#34;&gt;技术栈&lt;/h1&gt;
+&lt;p&gt;我已经写作和写博客大约 8 年了。从博客平台开始，我曾经用 Java 编写了我的博客应用程序，并用 &lt;a href=&#34;https://wordpress.com/&#34;&gt;WordPress&lt;/a&gt; 之类的 CMS 试验了一段时间。&lt;/p&gt;
+&lt;p&gt;最终，我发现我在这里的核心需求是一个反思和写下我的想法的地方。所有这些解决方案都需要花费太多精力来配置和维护，导致下班后没有时间和精力去写。&lt;/p&gt;
+&lt;p&gt;我决定这一次应该有所不同。经过一番研究，我确定静态站点是最佳选择。有了静态网站，我不需要关心数据库、托管服务器和其他技术细节，可以专注于写作。我必须专注于核心使命，尽可能减少能源消耗。&lt;/p&gt;
+&lt;p&gt;因此，该站点利用了著名且具有影响力的 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; 框架和 &lt;a href=&#34;https://hugoloveit.com/&#34;&gt;LoveIt&lt;/a&gt; 主题，并直接部署到 &lt;a href=&#34;https://pages.cloudflare.com/&#34;&gt;Cloudflare CDN&lt;/a&gt;。 &lt;a href=&#34;https://github.com/JustinQHu/Mblog&#34;&gt;GitHub&lt;/a&gt; 托管源代码，提交到 repo 将触发构建和部署管道。&lt;/p&gt;
+&lt;h1 id=&#34;目标&#34;&gt;目标&lt;/h1&gt;
+&lt;p&gt;对于这个网站，我希望能带来高质量、有深度的内容。因此，设定每年 50+ 或 100+ 篇文章的目标是不现实的。&lt;/p&gt;
+&lt;p&gt;我的目标是每年发表 10 篇文章，每篇文章都有深入的研究、研究和思考。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Donate</title>
+      <link>http://localhost:52512/zh-cn/donate/</link>
+      <pubDate>Wed, 13 Jul 2022 10:01:45 -0400</pubDate>
+      <guid>http://localhost:52512/zh-cn/donate/</guid>
+      <description>&lt;p&gt;If you appreciate my content, please consider donating to charities or nonprofits
+to make the world a better place.&lt;/p&gt;
+&lt;p&gt;Here are some of my recommendations:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Wikimedia Foundation&lt;/strong&gt;&lt;br&gt;
+The Wikimedia Foundation operates the world’s most extensive free knowledge base
+Wikipedia. &lt;a href=&#34;https://en.wikipedia.org/wiki/Main_Page&#34;&gt;Wikipedia&lt;/a&gt; is a multilingual free online encyclopedia written and maintained
+by a community of volunteers through open collaboration and a wiki-based editing system.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wikimediafoundation.org/support/&#34;&gt;Support Wikimedia Foundation&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Apache Software Foundation&lt;/strong&gt;&lt;br&gt;
+The Apache Software Foundation is an American nonprofit corporation supporting many open-source software projects,
+including ActiveMQ, HTTP Server, Kafka,
+Lucene, Maven, etc. Here is the &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_Apache_Software_Foundation_projects&#34;&gt;list&lt;/a&gt;
+of all Apache Software Foundation projects.&lt;br&gt;
+Open-source software powers a large portion of today&amp;rsquo;s technology, which has significantly
+improved the efficiency and productivity of societies and changed people&amp;rsquo;s lives.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

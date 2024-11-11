@@ -1,0 +1,11 @@
+<footer class="footer">
+    <div class="footer-container">
+        {{- /* Custom Content */ -}}
+        {{- with .Site.Params.footer.custom -}}
+            <div class="footer-line">
+                {{- safeHTML . -}}
+            </div>
+        {{- end -}}
+
+    </div>
+</footer>

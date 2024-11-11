@@ -1,0 +1,21 @@
+main:
+  - identifier: essay
+    name: 随笔
+    url: /essay/
+    weight: 10
+  - identifier: engineering
+    name: 技术
+    url: /engr/
+    weight: 20
+  - identifier: management
+    name: 管理
+    url: /mgmt/
+    weight: 30
+  - identifier: travel
+    name: 旅途
+    url: /travel/
+    weight: 40
+  - identifier: search
+    name: 搜索
+    url: /search/
+    weight: 50

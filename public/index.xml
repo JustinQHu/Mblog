@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LogischerMix</title>
+    <link>http://localhost:52512/</link>
+    <description>Recent content on LogischerMix</description>
+    <image>
+      <title>LogischerMix</title>
+      <url>http://localhost:52512/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:52512/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 Jul 2022 20:48:13 -0400</lastBuildDate>
+    <atom:link href="http://localhost:52512/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:52512/visited_places/</link>
+      <pubDate>Sun, 31 Jul 2022 20:48:13 -0400</pubDate>
+      <guid>http://localhost:52512/visited_places/</guid>
+      <description>&lt;iframe src=&#34;https://www.google.com/maps/d/u/0/embed?mid=1g9FSghwPSnpOvGU-cVUIMmHCAgsCmO0&amp;amp;ehbc=2E312F&#34; style=&#34;position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;&#34;&gt;
+    Your browser doesn&#39;t support iframes!
+&lt;/iframe&gt;</description>
+    </item>
+    <item>
+      <title>Comment Policy</title>
+      <link>http://localhost:52512/comment-policy/</link>
+      <pubDate>Sat, 16 Jul 2022 11:57:50 -0400</pubDate>
+      <guid>http://localhost:52512/comment-policy/</guid>
+      <description>&lt;h2 id=&#34;comment-guidelines&#34;&gt;Comment Guidelines&lt;/h2&gt;
+&lt;p&gt;We love comments about our articles, and we want to hear what you respectfully have to say. Remember to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Be nice, courteous, and stay on topic;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;No profanity, name-calling/personal attacks, or inappropriate content;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you harass others or joke about tragedies, you will be blocked;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;No spam posts, or posts trying to sell anything.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The primary rule here is pretty simple: Treat others with the same respect you’d want for yourself. Trolling and posting inappropriate content will lead to you being banned, and we don’t want that. Play nice.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Donate</title>
+      <link>http://localhost:52512/donate/</link>
+      <pubDate>Wed, 13 Jul 2022 10:01:45 -0400</pubDate>
+      <guid>http://localhost:52512/donate/</guid>
+      <description>&lt;p&gt;If you appreciate my content, please consider donating to charities or nonprofits
+to make the world a better place.&lt;/p&gt;
+&lt;p&gt;Here are some of my recommendations:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Wikimedia Foundation&lt;/strong&gt;&lt;br&gt;
+The Wikimedia Foundation operates the world’s most extensive free knowledge base
+Wikipedia. &lt;a href=&#34;https://en.wikipedia.org/wiki/Main_Page&#34;&gt;Wikipedia&lt;/a&gt; is a multilingual free online encyclopedia written and maintained
+by a community of volunteers through open collaboration and a wiki-based editing system.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wikimediafoundation.org/support/&#34;&gt;Support Wikimedia Foundation&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Apache Software Foundation&lt;/strong&gt;&lt;br&gt;
+The Apache Software Foundation is an American nonprofit corporation supporting many open-source software projects,
+including ActiveMQ, HTTP Server, Kafka,
+Lucene, Maven, etc. Here is the &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_Apache_Software_Foundation_projects&#34;&gt;list&lt;/a&gt;
+of all Apache Software Foundation projects.&lt;br&gt;
+Open-source software powers a large portion of today&amp;rsquo;s technology, which has significantly
+improved the efficiency and productivity of societies and changed people&amp;rsquo;s lives.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:52512/about/</link>
+      <pubDate>Fri, 17 Jun 2022 16:58:47 -0400</pubDate>
+      <guid>http://localhost:52512/about/</guid>
+      <description>&lt;h1 id=&#34;the-name&#34;&gt;The Name&lt;/h1&gt;
+&lt;p&gt;The name &lt;strong&gt;LogischerMix&lt;/strong&gt; comes from the book &lt;a href=&#34;https://www.amazon.ca/Logicomix-search-truth-Apostolos-Doxiadis/dp/1596914521&#34;&gt;&lt;em&gt;Logicomix: An Epic Search for Truth&lt;/em&gt;&lt;/a&gt;,
+a fantastic book recommended by one of my professors at the business school.&lt;/p&gt;
+&lt;p&gt;LogischerMix is the German translation of &lt;em&gt;Logicomix&lt;/em&gt;, for the domain name of &lt;em&gt;Logicomix&lt;/em&gt; has already
+been registered, and I believe the book name is also copyright protected.&lt;/p&gt;
+&lt;h1 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h1&gt;
+&lt;p&gt;I have been writing and blogging for about &lt;strong&gt;8&lt;/strong&gt; years. Starting with blogging platforms,  I once wrote my
+blogging app with Java and experimented with CMS like &lt;a href=&#34;https://wordpress.com/&#34;&gt;WordPress&lt;/a&gt; for
+some time.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
