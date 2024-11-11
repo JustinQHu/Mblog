@@ -2,31 +2,634 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LogischerMix</title>
-    <link>http://localhost:52512/zh-cn/</link>
+    <link>http://localhost:1313/zh-cn/</link>
     <description>Recent content on LogischerMix</description>
     <image>
       <title>LogischerMix</title>
-      <url>http://localhost:52512/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:52512/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.138.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 31 Jul 2022 20:48:13 -0400</lastBuildDate>
-    <atom:link href="http://localhost:52512/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Oct 2024 17:17:04 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform 和基础设施即代码</title>
+      <link>http://localhost:1313/zh-cn/engr/terraform_and_infrastructure_as_code/</link>
+      <pubDate>Sat, 19 Oct 2024 17:17:04 -0400</pubDate>
+      <guid>http://localhost:1313/zh-cn/engr/terraform_and_infrastructure_as_code/</guid>
+      <description>&lt;h2 id=&#34;基础设施即代码&#34;&gt;基础设施即代码&lt;/h2&gt;
+&lt;h3 id=&#34;配置云资源的挑战&#34;&gt;配置云资源的挑战&lt;/h3&gt;
+&lt;p&gt;大规模手动配置基础设施既缓慢又繁琐。通过点击式 GUI 配置基础设施容易出错、效率低下且无法扩展。云是为自动化而构建的，但为每项服务和每个用例编写自定义脚本对于开发团队来说既耗时又昂贵。&lt;/p&gt;
+&lt;h3 id=&#34;解决方案&#34;&gt;解决方案&lt;/h3&gt;
+&lt;p&gt;基础设施即代码 (IaC) 可在任何云上自动配置基础设施。多云配置应使用声明式基础设施即代码实现自动化。应该有一种简单易学的配置语言，允许人们定义基础设施资源，以便可以在所有环境中以一致的工作流对基础设施进行编码、共享、版本控制和执行。&lt;/p&gt;
+&lt;h2 id=&#34;terraform&#34;&gt;Terraform&lt;/h2&gt;
+&lt;p&gt;基础设施即代码有几十种不同的工具，HashiCorp 开发的 Terraform 是目前业内最受欢迎的 IaC 工具之一。&lt;/p&gt;
+&lt;p&gt;另外，OpenTofu 是从 terraform 1.5.6 分叉的开源工具，提供类似的功能和界面。&lt;/p&gt;
+&lt;h2 id=&#34;terraform-快速入门&#34;&gt;Terraform 快速入门&lt;/h2&gt;
+&lt;h3 id=&#34;terraform-的工作原理&#34;&gt;Terraform 的工作原理&lt;/h3&gt;
+&lt;p&gt;Terraform 依赖不同的服务提供商来实际管理不同平台上的基础设施资源。服务提供商实际上是一个使用上游平台 API 来配置资源的模块。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Terraform Flow&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/se/terraform/terraform_flow.png&#34; title=&#34;Terraform Flow&#34;&gt;
+使用 Terraform 部署基础设施有 5 个步骤：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1.范围 - 确定项目的基础设施&lt;br&gt;
+2.作者 - 编写基础设施的配置&lt;br&gt;
+3.初始化 - 安装 Terraform 管理基础设施所需的插件&lt;br&gt;
+4.计划 - 预览 Terraform 将进行的更改以匹配您的配置&lt;br&gt;
+5.应用 - 进行计划的更改&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;安装-terraform-cli&#34;&gt;安装 Terraform CLI&lt;/h3&gt;
+&lt;p&gt;使用 Homebrew 在 Mac 上安装 Terraform&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew tap hashicorp/tap
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install hashicorp/tap/terraform
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;验证安装&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GitHub Actions以及它为何比Jenkins更受欢迎并成为默认CI/CD工具</title>
+      <link>http://localhost:1313/zh-cn/engr/github_actions_101/</link>
+      <pubDate>Sat, 19 Oct 2024 17:16:19 -0400</pubDate>
+      <guid>http://localhost:1313/zh-cn/engr/github_actions_101/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本站的所有文章都默认为英文，中文版本由Google Translate 翻译。&lt;br&gt;
+由于时间限制，并非所有文章都有中文版本。。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;什么是-git-actions&#34;&gt;什么是 Git Actions&lt;/h2&gt;
+&lt;p&gt;根据 &lt;a href=&#34;https://docs.github.com/en/actions/writing-workflows/quickstart&#34;&gt;Github&lt;/a&gt; 的说法：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GitHub Actions 是一个持续集成和持续交付 (CI/CD) 平台，可让您自动化构建、测试和部署管道。您可以创建工作流，在将更改推送到存储库时运行测试，或者将合并的拉取请求部署到生产环境中。如果您有 CI/CD 工具使用经验，可能使用过 Genkins，那么您可以将 Github Actions 视为一种类似但更好的工具，可以实现相同的目的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;类似地，GitHub Actions 可用于：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;构建和测试&lt;/li&gt;
+&lt;li&gt;部署&lt;/li&gt;
+&lt;li&gt;发布包&lt;/li&gt;
+&lt;li&gt;管理 github（问题、标签）等等&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;一个简单的例子&#34;&gt;一个简单的例子&lt;/h2&gt;
+&lt;h3 id=&#34;1-创建-github-action-工作流-yaml-文件&#34;&gt;1. 创建 Github Action 工作流 YAML 文件&lt;/h3&gt;
+&lt;p&gt;在 GitHub 上的存储库中，在 .github/workflows 目录中创建一个名为 github-actions-hello-world.yml 的工作流文件。&lt;/p&gt;
+&lt;h3 id=&#34;2-复制并粘贴以下-hello-world-yaml-内容&#34;&gt;2. 复制并粘贴以下 Hello World YAML 内容&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-YAML&#34; data-lang=&#34;YAML&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub Actions Hello World&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;run-name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;${{ github.actor }} is testing out GitHub Actions 🚀&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;on&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;l&#34;&gt;push]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;jobs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Explore-GitHub-Actions&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;runs-on&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ubuntu-latest&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;steps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;echo &amp;#34;🎉 The job was automatically triggered by a ${{ github.event_name }} event.&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;echo &amp;#34;🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;echo &amp;#34;🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}.&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Check out repository code&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;uses&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;actions/checkout@v4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;echo &amp;#34;💡 The ${{ github.repository }} repository has been cloned to the runner.&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;echo &amp;#34;🖥️ The workflow is now ready to test your code on the runner.&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;List files in the repository&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          ls ${{ github.workspace }}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;echo &amp;#34;🍏 This job&amp;#39;s status is ${{ job.status }}.&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;将-yaml-文件提交到-repo&#34;&gt;将 YAML 文件提交到 Repo&lt;/h3&gt;
+&lt;p&gt;将工作流文件提交到您的分支&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>如何创建自签名SSL证书</title>
+      <link>http://localhost:1313/zh-cn/engr/how_to_self_signed_ssl_certificates/</link>
+      <pubDate>Sun, 28 Jan 2024 14:09:39 -0500</pubDate>
+      <guid>http://localhost:1313/zh-cn/engr/how_to_self_signed_ssl_certificates/</guid>
+      <description>&lt;h2 id=&#34;ssl证书&#34;&gt;SSL证书&lt;/h2&gt;
+&lt;p&gt;在当今网络犯罪变得越来越普遍的数字环境中，保护您的网站或应用程序变得越来越重要。&lt;/p&gt;
+&lt;p&gt;实现安全性的一种常见方法是通过加密。 对称和非对称加密在密码学领域已得到深入研究，并广泛应用于业界以帮助保护数字系统。 SSL 证书建立在非对称加密之上，通常用于通过确保客户端和 Web 服务器之间传输的数据经过加密来保护网站安全，从而保证数据的私密性和安全性。&lt;/p&gt;
+&lt;p&gt;企业、组织和开发人员通常从充当互联网信任源的公共CA（证书颁发机构）获取SSL证书。 在某些情况下，例如测试、学习、开发或内部目的，可能需要创建自签名 SSL 证书。&lt;/p&gt;
+&lt;p&gt;本文作为如何使用OpenSSL生成自签名SSL证书的简单指南。&lt;/p&gt;
+&lt;h2 id=&#34;分步指南&#34;&gt;分步指南&lt;/h2&gt;
+&lt;h3 id=&#34;1-安装openssl&#34;&gt;1: 安装OpenSSL&lt;/h3&gt;
+&lt;p&gt;互联网上有大量有关如何安装 OpenSSL 的信息。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;对于基于 Ubuntu 或 Debian 的系统：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install openssl
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;对于基于 CentOS、Fedora 或 RHEL 的系统：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo yum install openssl
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;对于MacOS&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install openssl
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2-生成私钥&#34;&gt;2: 生成私钥&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;openssl genrsa -out test.key &lt;span class=&#34;m&#34;&gt;2048&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;运行命令生成 2048 位 RSA 私钥（将 test.key 替换为您的文件名）：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Generating RSA private key, &lt;span class=&#34;m&#34;&gt;2048&lt;/span&gt; bit long modulus &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt; primes&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;..............+++++
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.............+++++
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;e is &lt;span class=&#34;m&#34;&gt;65537&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;0x010001&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;3-创建证书签名请求&#34;&gt;3: 创建证书签名请求&lt;/h3&gt;
+&lt;p&gt;证书签名请求 (CSR) 包含有关您的应用程序和组织的所有信息。 然后可以使用 CSR 来生成 SSL 证书。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>沉思录：斯多葛主义和罗马皇帝对人类缺点的防御</title>
+      <link>http://localhost:1313/zh-cn/essay/meditations_review/</link>
+      <pubDate>Mon, 25 Dec 2023 15:41:37 -0500</pubDate>
+      <guid>http://localhost:1313/zh-cn/essay/meditations_review/</guid>
+      <description>&lt;h2 id=&#34;罗马皇帝的日记&#34;&gt;罗马皇帝的日记&lt;/h2&gt;
+&lt;p&gt;《沉思录》是罗马皇帝马可·奥勒留写给自己的日记。 事实上，长期以来的标题《沉思录》有点误导性，并不是原创的。&lt;/p&gt;
+&lt;p&gt;这本书没有强调和连贯的论点，而是一些反复出现的主题。 全书中多次提到和讨论了一些主题。 例如，作品中弥漫着死亡感。 马库斯思考着死亡这个话题，并不断提醒自己，死亡是一个自然过程，无需恐惧，是世界不断变化的一部分。 毫不奇怪，长时间阅读《沉思录》可能会导致忧郁。&lt;/p&gt;
+&lt;p&gt;其他反复出现的主题包括早上如何起床、如何克制愤怒、如何应对痛苦、如何过正确的生活、如何应对邪恶的人……等等。&lt;/p&gt;
+&lt;p&gt;沉思及其所代表的哲学，从根本上来说是一种抵抗痛苦的哲学，是对人类缺点的补救措施，以及对痛苦、刺激和痛苦等消极事物的防御。 马库斯在书中没有为我们提供任何获得幸福的方法。&lt;/p&gt;
+&lt;h2 id=&#34;斯多葛主义&#34;&gt;斯多葛主义&lt;/h2&gt;
+&lt;p&gt;马可·奥勒留是一位斯多葛派哲学家和罗马皇帝。 因此，《沉思录》的哲学基础是斯多葛主义。&lt;/p&gt;
+&lt;p&gt;斯多葛主义的核心学说是相信世界是由一种称为逻各斯的无所不在的力量合理且连贯地组织起来的。 理则在个人和整个宇宙中都起作用。 对于个人来说，它是理性的能力。 在宇宙层面上，它是支配宇宙组织的理性原则。 从这个意义上说，它是自然、天意或上帝的同义词。&lt;/p&gt;
+&lt;p&gt;所有的事件都是由理则决定的。 因此，斯多葛主义是一种决定论体系，似乎没有给人类自由意志或道德责任留下任何空间。 根据斯多葛主义的定义，自由意志是对无论如何不可避免的事情的自愿适应。 人就像一只拴在行驶的马车上的狗。 狗似乎能够做出选择，但最终它会随着马车一起移动。&lt;/p&gt;
+&lt;p&gt;书中反复提出了三个核心学科:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;感知的纪律：客观地感知，不带个人价值判断；&lt;/li&gt;
+&lt;li&gt;行为准则：公正地对待我们控制范围内的事情&lt;/li&gt;
+&lt;li&gt;意志的纪律：对我们无法控制的事情漠不关心地接受
+马库斯从未定义他所说的正义是什么意思，但它近似于按照自然要求生活。&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>FastAPI 初探</title>
+      <link>http://localhost:1313/zh-cn/engr/fastapi101/</link>
+      <pubDate>Fri, 01 Dec 2023 16:03:50 -0500</pubDate>
+      <guid>http://localhost:1313/zh-cn/engr/fastapi101/</guid>
+      <description>&lt;h2 id=&#34;what-is-fastapi&#34;&gt;What is FastAPI?&lt;/h2&gt;
+&lt;p&gt;According to its official website,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://fastapi.tiangolo.com/&#34;&gt;FastAPI&lt;/a&gt; is a modern, fast (high-performance), web framework for building APIs with
+Python 3.8+ based on standard Python type hints.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;hello-world-with-fastapi&#34;&gt;Hello World with FastAPI&lt;/h2&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+&lt;h4 id=&#34;requirements&#34;&gt;Requirements&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Python3.8+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;install-fastapi&#34;&gt;Install FastAPI&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install fastapi
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;install-asgi-server&#34;&gt;Install ASGI Server&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install &lt;span class=&#34;s2&#34;&gt;&amp;#34;uvicorn[standard]&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;define-a-fastapi-app&#34;&gt;Define a FastAPI app&lt;/h3&gt;
+&lt;p&gt;Create a file &lt;em&gt;main.py&lt;/em&gt; with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;typing&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Union&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;fastapi&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;FastAPI&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;app&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;FastAPI&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;create-api-endpoints&#34;&gt;Create API Endpoints&lt;/h3&gt;
+&lt;p&gt;In &lt;em&gt;main.py&lt;/em&gt; add the following 2 endpoints implementation&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>汉密尔顿</title>
+      <link>http://localhost:1313/zh-cn/travel/hamilton/</link>
+      <pubDate>Sun, 12 Nov 2023 09:36:47 -0500</pubDate>
+      <guid>http://localhost:1313/zh-cn/travel/hamilton/</guid>
+      <description>&lt;h2 id=&#34;hamilton&#34;&gt;Hamilton&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Hamilton,_Ontario&#34;&gt;Hamilton&lt;/a&gt; is a port city in the Canadian province of Ontario.&lt;/p&gt;
+&lt;p&gt;General impressions:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;a beautiful small city&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/McMaster_University&#34;&gt;McMaster University&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;dundurn-castle&#34;&gt;Dundurn Castle&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Hamilton&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/hamilton/dundurn_1.jpeg&#34; title=&#34;Dundrun Castle&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Hamilton&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/hamilton/dundurn_2.jpeg&#34; title=&#34;Dundrun Castle&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Hamilton&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/hamilton/dundurn_3.jpeg&#34; title=&#34;Dundrun Castle&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Hamilton&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/hamilton/dundurn_4.jpeg&#34; title=&#34;Dundrun Castle&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Hamilton&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/hamilton/dundurn_5.jpeg&#34; title=&#34;Dundrun Castle&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Hamilton&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/hamilton/dundurn_6.jpeg&#34; title=&#34;Dundrun Castle&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Hamilton&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/hamilton/dundurn_7.jpeg&#34; title=&#34;Dundrun Castle&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;red-hill-valley-trail&#34;&gt;Red Hill Valley Trail&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Hamilton&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/hamilton/redvalley_1.jpeg&#34; title=&#34;Red Hill Valley Trail&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Hamilton&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/hamilton/redvalley_3.jpeg&#34; title=&#34;Red Hill Valley Trail&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Hamilton&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/hamilton/redvalley_3.jpeg&#34; title=&#34;Red Hill Valley Trail&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>蒙特利尔</title>
+      <link>http://localhost:1313/zh-cn/travel/montreal/</link>
+      <pubDate>Thu, 28 Sep 2023 09:43:27 -0400</pubDate>
+      <guid>http://localhost:1313/zh-cn/travel/montreal/</guid>
+      <description>&lt;h2 id=&#34;montreal&#34;&gt;Montreal&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Montreal&#34;&gt;Montreal&lt;/a&gt; is located by the riverside of the &lt;a href=&#34;https://en.wikipedia.org/wiki/St._Lawrence_River&#34;&gt;St. Lawrence River&lt;/a&gt; and is the second
+most populous city in Canada. Of course,  French is the city&amp;rsquo;s official language.&lt;/p&gt;
+&lt;p&gt;General Impressions:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Downtown Montreal is built on hills; so a lot of uphills and downhills while wandering around in the city center;&lt;/li&gt;
+&lt;li&gt;Montreal gives people a feeling of cleanness; the homeless issue is less severe compared to other major cities like Toronto and Ottawa;&lt;/li&gt;
+&lt;li&gt;There are a lot of stunningly beautiful churches in the city;&lt;/li&gt;
+&lt;li&gt;Unlike Ontario,  vehicles in Montreal only have a rear plate;&lt;/li&gt;
+&lt;li&gt;A lot of pedestrians don&amp;rsquo;t follow traffic lights when crossing the roads;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mtl.org/en/what-to-do/heritage-and-architecture/sainte-catherine-street&#34;&gt;Saint-Catherine St&lt;/a&gt; is a pedestrian-only street with tons of shops, bars and restaurants and is a good place to visit;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;Montreal&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/montreal/St_James_United_Church.jpeg&#34; title=&#34;St. James United Church&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>渥太华</title>
+      <link>http://localhost:1313/zh-cn/travel/ottawa/</link>
+      <pubDate>Tue, 26 Sep 2023 09:33:28 -0400</pubDate>
+      <guid>http://localhost:1313/zh-cn/travel/ottawa/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Ottawa&#34;&gt;Ottawa&lt;/a&gt;,  the capital city of Canada, is located at the confluence of Ottawa River
+and Rideau River.&lt;/p&gt;
+&lt;h2 id=&#34;ottawa&#34;&gt;Ottawa&lt;/h2&gt;
+&lt;p&gt;My general impressions of the city:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Ottawa is a much smaller city, compared to Toronto, understandably;&lt;/li&gt;
+&lt;li&gt;Ottawa is full of the PRIDE vibe; rainbow flags and crossings can be seen frequently, at least when I visited the city;&lt;/li&gt;
+&lt;li&gt;Ottawa,  like other cities,  also has a severe homeless crisis, which damages the city&amp;rsquo;s image;&lt;/li&gt;
+&lt;li&gt;Ottawa is little boring since the economy is mainly driven by the Canadian government, which happens to be the largest employer in Ottawa;&lt;/li&gt;
+&lt;li&gt;Ottawa&amp;rsquo;s public transit, &lt;a href=&#34;https://www.octranspo.com/en/&#34;&gt;OC Transpo&lt;/a&gt;, is still developing; good news is that it accepts &lt;a href=&#34;https://www.prestocard.ca/en/&#34;&gt;Presto&lt;/a&gt; or Visa/Mastercard credit card;&lt;/li&gt;
+&lt;li&gt;Ottawa is a more bilingual city and French is more widely used, compared to Toronto which is a more English city;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;Ottawa&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/ottawa/OttawaRiver.jpeg&#34; title=&#34;Ottawa River and the East Block in Renovation&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>尼亚加拉瀑布</title>
+      <link>http://localhost:1313/zh-cn/travel/niagara_falls/</link>
+      <pubDate>Fri, 22 Sep 2023 09:15:49 -0400</pubDate>
+      <guid>http://localhost:1313/zh-cn/travel/niagara_falls/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Niagara_Falls&#34;&gt;Niagara Falls&lt;/a&gt; is one of the most famous waterfalls in the world, spanning the border between Ontario in Canada
+and New York in the United States. It comprises three falls (from right to left): Horseshoe Falls,  Bridal Falls,  and American Falls.&lt;/p&gt;
+&lt;p&gt;Impressions:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Canada side has the best view;&lt;/li&gt;
+&lt;li&gt;The Rainbow bridge connecting Canada and the U.S. is not misnamed cause there are rainbows;&lt;/li&gt;
+&lt;li&gt;Be prepared to get wet; it&amp;rsquo;s like a heavy rain for the water drops more than 50 meters and a lot of water droplets bounce back;&lt;/li&gt;
+&lt;li&gt;Parking is expensive; it costs $35 dollars for 3 hours parking at 6635 Niagara River Pkwy, which is the closest parking lot to the fall&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;Niagara Falls&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/niagara_falls/niagarafalls_1.jpeg&#34; title=&#34;Niagara Falls&#34;&gt;&lt;br&gt;
+&lt;img alt=&#34;Niagara Falls&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/niagara_falls/niagarafalls_2.jpeg&#34; title=&#34;Niagara Falls&#34;&gt;&lt;br&gt;
+&lt;img alt=&#34;Niagara Falls&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/niagara_falls/niagarafalls_3.jpeg&#34; title=&#34;Niagara Falls&#34;&gt;&lt;br&gt;
+&lt;img alt=&#34;Niagara Falls&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/niagara_falls/niagarafalls_4.jpeg&#34; title=&#34;Niagara Falls&#34;&gt;&lt;br&gt;
+&lt;img alt=&#34;Niagara Falls&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/niagara_falls/niagarafalls_5.jpeg&#34; title=&#34;Niagara Falls&#34;&gt;&lt;br&gt;
+&lt;img alt=&#34;Niagara Falls&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/niagara_falls/niagarafalls_6.jpeg&#34; title=&#34;Niagara Falls&#34;&gt;&lt;br&gt;
+&lt;img alt=&#34;Niagara Falls&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/niagara_falls/niagarafalls_7.jpeg&#34; title=&#34;Niagara Falls&#34;&gt;&lt;br&gt;
+&lt;img alt=&#34;Niagara Falls&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/niagara_falls/niagarafalls_8.jpeg&#34; title=&#34;Niagara Falls&#34;&gt;&lt;br&gt;
+&lt;img alt=&#34;Niagara Falls&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/niagara_falls/niagarafalls_9.jpeg&#34; title=&#34;Niagara Falls&#34;&gt;&lt;br&gt;
+&lt;img alt=&#34;Niagara Falls&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/niagara_falls/niagarafalls_10.jpeg&#34; title=&#34;Niagara Falls&#34;&gt;&lt;br&gt;
+&lt;img alt=&#34;Niagara Falls&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/niagara_falls/niagarafalls_11.jpeg&#34; title=&#34;Niagara Falls&#34;&gt;&lt;br&gt;
+&lt;img alt=&#34;Niagara Falls&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/niagara_falls/niagarafalls_12.jpeg&#34; title=&#34;Niagara Falls&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>沃萨加海滩</title>
+      <link>http://localhost:1313/zh-cn/travel/wasaga_beach/</link>
+      <pubDate>Tue, 19 Sep 2023 10:00:50 -0400</pubDate>
+      <guid>http://localhost:1313/zh-cn/travel/wasaga_beach/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Wasaga_Beach&#34;&gt;Wasaga Beach&lt;/a&gt; is a small town in the southern end of the Georgian Bay. It&amp;rsquo;s about
+1.5h drive from Toronto, so not very far.&lt;/p&gt;
+&lt;p&gt;My biggest impressions of Wasaga:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;great beach&lt;/li&gt;
+&lt;li&gt;great winds and tides&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;Wasaga Beach1&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/wasaga_beach/wasaga_1.jpeg&#34; title=&#34;Wasaga Beach&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Wasaga Beach2&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/wasaga_beach/wasaga_2.jpeg&#34; title=&#34;Wasaga Beach&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Wasaga Beach3&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/wasaga_beach/wasaga_3.jpeg&#34; title=&#34;Wasaga Beach&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Wasaga Beach4&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/wasaga_beach/wasaga_4.jpeg&#34; title=&#34;Wasaga Beach&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Wasaga Beach5&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/travel/wasaga_beach/wasaga_5.jpeg&#34; title=&#34;Wasaga Beach&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SMARTER 目标</title>
+      <link>http://localhost:1313/zh-cn/mgmt/smarter_goals/</link>
+      <pubDate>Mon, 18 Sep 2023 11:01:16 -0400</pubDate>
+      <guid>http://localhost:1313/zh-cn/mgmt/smarter_goals/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本站的所有文章都默认为英文，中文版本由Google Translate 翻译。&lt;br&gt;
+由于时间限制，并非所有文章都有中文版本。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;设定目标是实现目标的第一步。
+正确的目标可以帮助识别弱点，提供愿景和指导，最重要的是让我们对目标负责。
+因此，设定目标是我们职业生活和个人生活中的一项至关重要的技能。 掌握适当的目标设定技能对于实现成功和充实的生活至关重要。&lt;/p&gt;
+&lt;h2 id=&#34;smart-目标&#34;&gt;SMART 目标&lt;/h2&gt;
+&lt;p&gt;SMART 是广泛使用的目标设定技术的缩写。 其标准通常归因于彼得·德鲁克的 &lt;a href=&#34;https://en.wikipedia.org/wiki/Management_by_objectives&#34;&gt;Management by Objectives&lt;/a&gt; 概念。&lt;/p&gt;
+&lt;p&gt;为了确保您的目标清晰且可实现，您的目标应该是：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;具体的(&lt;strong&gt;Specific&lt;/strong&gt;)
+&lt;ol&gt;
+&lt;li&gt;你会取得什么成就？ 你会做什么？ 要具体，避免笼统&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;可测量的(&lt;strong&gt;Measurable&lt;/strong&gt;)
+&lt;ol&gt;
+&lt;li&gt;您将使用哪些数据/标准来确定您是否达到了目标？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;可实现的(&lt;strong&gt;Achievable&lt;/strong&gt;)
+&lt;ol&gt;
+&lt;li&gt;目标现实吗？ 你确定你能做到吗？ 您有合适的技能和资源吗？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;相关的(&lt;strong&gt;Relevant&lt;/strong&gt;)
+&lt;ol&gt;
+&lt;li&gt;目标对你来说重要吗？ 这个目标对你来说有意义吗？ 该目标与您的战略/使命相符吗？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;有时间限制(&lt;strong&gt;Time-bound&lt;/strong&gt;)
+&lt;ol&gt;
+&lt;li&gt;完成目标的最后期限是多少&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;smarter-目标&#34;&gt;SMARTER 目标&lt;/h2&gt;
+&lt;p&gt;SMART 是一种有效的工具，可以为您提供实现目标的清晰度、重点和动力。 但它不包括评估和反馈的重要部分。 一些作者将其扩展为&lt;strong&gt;SMARTER&lt;/strong&gt;，以包含额外的重点领域。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;已评估(&lt;strong&gt;Evaluated&lt;/strong&gt;)
+&lt;ol&gt;
+&lt;li&gt;定期评估实现目标的进度&lt;/li&gt;
+&lt;li&gt;评估政策（例如时间和频率）应包含在目标设定中。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;已审核(&lt;strong&gt;Reviewed&lt;/strong&gt;)
+&lt;ol&gt;
+&lt;li&gt;截止日期后回顾目标及其完成情况&lt;/li&gt;
+&lt;li&gt;从这个目标中吸取教训，包括它的设定和完成，以便为未来的目标做出改进&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Apache Kafka以及与RabbitMQ的比较</title>
+      <link>http://localhost:1313/zh-cn/engr/kafka_and_comparison_with_rabbitmq/</link>
+      <pubDate>Fri, 23 Dec 2022 14:01:10 -0500</pubDate>
+      <guid>http://localhost:1313/zh-cn/engr/kafka_and_comparison_with_rabbitmq/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本站的所有文章都默认为英文，中文版本由Google Translate 翻译。&lt;br&gt;
+由于时间限制，并非所有文章都有中文版本。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;kafka介绍&#34;&gt;Kafka介绍&lt;/h2&gt;
+&lt;p&gt;Apache Kafka 现在在我的工作中大量使用。 因此，我认为写一篇关于它的帖子会很有用和有帮助。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://kafka.apache.org/documentation/&#34;&gt;Kafka&lt;/a&gt; 是一个事件流平台。 Apache Kafka 定义事件流如下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;从技术上讲，事件流是以事件流的形式从数据库、传感器、移动设备、云服务和软件应用程序等事件源实时捕获数据的实践；
+持久存储这些事件流以供以后检索； 实时和回顾性地操纵、处理和响应事件流； 并根据需要将事件流路由到不同的目标
+技术。 因此，事件流可确保数据的连续流动和解释，从而使正确的信息在正确的时间出现在正确的位置。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;kafka安装和hello-world&#34;&gt;Kafka安装和Hello World&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;关于如何在其他系统上安装和运行Kafka，请参考官方文档：
+&lt;a href=&#34;https://kafka.apache.org/quickstart&#34;&gt;https://kafka.apache.org/quickstart&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我正在使用 Mac。 &lt;a href=&#34;https://brew.sh/&#34;&gt;Homebrew&lt;/a&gt; 是一个非常好的工具，可以在 Mac 上安装和管理包，与 Ubuntu 上的 &lt;a href=&#34;https://help.ubuntu.com/community/AptGet/Howto&#34;&gt;apt-get&lt;/a&gt;  非常相似。
+MacOS 上的 Appstore 对于普通用户来说安装、升级、更新应用已经足够了，但是对于开发者来说绝对不够用。 老实说，我认为 Apple 应该收购 Homebrew 并将其集成到 MacOS 中。&lt;/p&gt;
+&lt;h3 id=&#34;安装java&#34;&gt;安装Java&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install java
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;java --version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;安装kafka&#34;&gt;安装Kafka&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install kafka
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;启动zookeeper&#34;&gt;启动ZooKeeper&lt;/h3&gt;
+&lt;p&gt;打开一个新的终端，运行命令启动 ZooKeeper，因为 Kafka 利用 &lt;a href=&#34;https://zookeeper.apache.org/&#34;&gt;ZooKeeper&lt;/a&gt; 来管理集群。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;zookeeper-server-start /usr/local/etc/kafka/zookeeper.properties
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;启动kafka&#34;&gt;启动Kafka&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意：
+编辑/usr/local/etc/kafka/server.properties，将listeners改为listeners=PLAINTEXT://localhost:9092&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;打开一个新终端，运行命令启动Kafka：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;kafka-server-start /usr/local/etc/kafka/server.properties
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;创建-kafka-topic&#34;&gt;创建 Kafka Topic&lt;/h3&gt;
+&lt;p&gt;创建一个 replication-factor=1（没有额外的副本）和 partition=1（只有 1 个分区）的测试主题&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>更快的 Python：Python 3.11 发布和未来路线图</title>
+      <link>http://localhost:1313/zh-cn/engr/faster_python/</link>
+      <pubDate>Sat, 03 Dec 2022 20:48:55 -0500</pubDate>
+      <guid>http://localhost:1313/zh-cn/engr/faster_python/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本站的所有文章都默认为英文，中文版本由Google Translate 翻译。&lt;br&gt;
+由于时间限制，并非所有文章都有中文版本。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Python 是一种流行的编程语言，尤其是在脚本、Web 开发、数据分析和 ML/AI 领域。&lt;/p&gt;
+&lt;p&gt;根据 TIOBE 编程语言索引，Python 已经成为 2022 年以来最流行的编程语言，超过了 C：
+&lt;img alt=&#34;programming language ranking&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/se/programming_language_ranking.png&#34; title=&#34;programming language ranking&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Python 因其平坦的学习曲线（与 C/C++ 等其他语言相比）、人类可读的代码和繁荣的生态系统而受到欢迎。 然而，开发人员总是抱怨 python 不比 JS 或 Lua 等其他解释语言快，甚至慢。&lt;/p&gt;
+&lt;h2 id=&#34;python-311&#34;&gt;Python 3.11&lt;/h2&gt;
+&lt;p&gt;Python 3.11 今天（2022 年 12 月 3 日）发布，带来巨大的性能提升：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Python 3.11 比 Python 3.10 快 10-60%。 平均而言，我们测得标准基准套件的速度提高了 1.25 倍&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;简而言之，Python 3.11 引入了 CPython 编译器和解释器的改进，因此速度更快。&lt;/p&gt;
+&lt;p&gt;如果您想了解更多细节，Guido van Rossum 和 Lex Fridman 进行了精彩的采访，讨论了 Python 3.11 为何如此之快：&lt;/p&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/TLhRuZ9cJWc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;高性能-python-路线图&#34;&gt;高性能 Python 路线图&lt;/h2&gt;
+&lt;p&gt;对于 python 社区来说，还有更多好消息。 Python 3.11 是一项重大改进，它不是全部，而是一个重要的里程碑。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>逻辑、推理和数学的不完备性</title>
+      <link>http://localhost:1313/zh-cn/essay/logic_reason_and_incompleteness_of_mathematics/</link>
+      <pubDate>Fri, 18 Nov 2022 17:09:07 -0500</pubDate>
+      <guid>http://localhost:1313/zh-cn/essay/logic_reason_and_incompleteness_of_mathematics/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本站的所有文章都默认为英文，中文版本由Google Translate 翻译。&lt;br&gt;
+由于时间限制，并非所有文章都有中文版本。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;一个有趣的事实是，本网站的名称来自一本书：Logicomix：对真理的史诗般的探索。&lt;/p&gt;
+&lt;p&gt;这篇文章或多或少是对这本书的评论。&lt;/p&gt;
+&lt;p&gt;《Logicomix》是一部图画小说（或漫画书），描绘了英国著名数学家、哲学家、逻辑学家、作家和公共知识分子伯特兰·罗素的生平，特别是罗素通过尝试建立一个新的严格且可证明的基础来追求基本和绝对真理对于数学。&lt;/p&gt;
+&lt;p&gt;这本书讨论了一堆有趣的想法。&lt;/p&gt;
+&lt;h2 id=&#34;坚实基础的探索&#34;&gt;坚实基础的探索&lt;/h2&gt;
+&lt;p&gt;罗素认为整个数学学科可以追溯到古希腊，是一座建在沙子上的房子，一个没有坚实地基的家。罗素认为人类所有的数学知识都是不可靠的，因为它们都是从公理和公设推导出来的，不言自明和真实的，但没有经过数学证明。&lt;/p&gt;
+&lt;p&gt;例如，几何学之父欧几里得将这一数学分支建立在公理和假设之上。&lt;/p&gt;
+&lt;p&gt;欧几里得公理:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;等于同一事物的事物也彼此相等&lt;/li&gt;
+&lt;li&gt;如果等于加等于，则整体相等。&lt;/li&gt;
+&lt;li&gt;如果从 equals 中减去 equals，则提醒是 equals。&lt;/li&gt;
+&lt;li&gt;彼此重合的事物彼此相等&lt;/li&gt;
+&lt;li&gt;整体大于部分&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;欧几里德公设:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;从任意一点到另一点画一条直线。&lt;/li&gt;
+&lt;li&gt;在一条直线上连续产生一条有限直线。&lt;/li&gt;
+&lt;li&gt;描述一个具有任意中心和距离的圆。&lt;/li&gt;
+&lt;li&gt;所有直角彼此相等。&lt;/li&gt;
+&lt;li&gt;即如果一条落在两条直线上的直线使同侧的内角小于两个直角，则无限产生的直线将在内角小于两个直角的那一侧相交。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;因此，罗素将数学的基础描述为摇摇欲坠的世界龟，如图所示：&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;不稳定的数学基础&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/life/logic_reason_and_incompleteness_of_mathematics/Russell_1.jpeg&#34; title=&#34;不稳定的数学基础，Logicomix 版权所有！&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在长达十年的数学基础研究中，罗素完成了《数学原理》和《数学原理》，在此期间，他开始直觉地意识到：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;打下坚实的数学基础是一个无尽的旅程，因为需要引入新的公理来证明现有的公理。这个过程一直在继续，从未停止！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;如下图生动描绘：&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;寻找基础的无尽旅程&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/life/logic_reason_and_incompleteness_of_mathematics/Russell_2.png&#34; title=&#34;寻找基础的无尽旅程，Logicomix 版权所有！&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;数学的不完整性&#34;&gt;数学的不完整性&lt;/h2&gt;
+&lt;p&gt;尽管罗素直觉地意识到摆脱公理并拥有坚如磐石的数学基础是不可能的，但另一位数学天才库尔特·哥德尔在数学上证明了这一点&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;总会有无法回答的问题和无法证明的陈述；因此，算术，以及任何基于它的系统，必然是不完整的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这一发现被称为哥德尔第一不完备性定理。结合他的第二不完备性定理，哥德尔在数学上证明了&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;形式公理化理论中可证明性的限制。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;罗素的直觉和哥德尔的不完备性理论证实了一个关键点：在数学系统和建立在数学基础上的科学技术中永远存在未知和无法回答的问题，这与比利格雷厄姆的技术无法解决人类缺点的观点产生共鸣。&lt;/p&gt;
+&lt;h2 id=&#34;和平主义&#34;&gt;和平主义&lt;/h2&gt;
+&lt;p&gt;拉塞尔是一个和平主义者，反对任何形式的暴力，这主要是因为他在孩提时代就曾亲身经历过战争的后果。&lt;/p&gt;
+&lt;p&gt;公众因此对他进行了严厉的批评，甚至将他关进了监狱。&lt;/p&gt;
+&lt;p&gt;罗素的处境与我们在 2022 年相当相关，俄罗斯和乌克兰之间的战争正在激烈进行，包括埃隆马斯克在内的和平主义者受到攻击和批评。&lt;/p&gt;
+&lt;p&gt;我无权评判，但我只是觉得很有趣：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;当人们直接或间接地遇到战斗的结果时，他们通常会反对战争。&lt;br&gt;
+新一代往往受到民族主义或其他意识形态的影响，渴望战争。&lt;br&gt;
+历史见证了亲战和反战世代轮回的诡异轮回。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;逻辑和第一性原理思维&#34;&gt;逻辑和第一性原理思维&lt;/h2&gt;
+&lt;p&gt;什么是逻辑？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;逻辑是新的和必要的推理！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我们应该如何看待和处理逻辑？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;逻辑是人类思维必不可少的强大工具。&lt;br&gt;
+同时，我们应该意识到这些工具的局限性和科学技术的局限性。&lt;br&gt;
+然后，像生活中的其他工具一样使用逻辑，让生活更美好。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;第一性原理思维&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有了逻辑，我们可以通过重要问题的基本原理进行推理。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>技术，人类的缺陷，和信仰</title>
+      <link>http://localhost:1313/zh-cn/essay/technology_human_shortcomings_and_faith/</link>
+      <pubDate>Fri, 18 Nov 2022 17:04:56 -0500</pubDate>
+      <guid>http://localhost:1313/zh-cn/essay/technology_human_shortcomings_and_faith/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本站的所有文章都默认为英文，中文版本由Google Translate 翻译。&lt;br&gt;
+由于时间限制，并非所有文章都有中文版本。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;比利.格雷厄姆可能是 20 世纪最伟大的布道家，他的教导是永恒的、永恒的和基本真理。 我觉得我很高兴我们的世界有像比利·格雷厄姆这样伟大的传教士，他是上帝恩典和荣耀的活生生的证明。&lt;/p&gt;
+&lt;p&gt;比利·格雷厄姆 (Billy Graham) 于 1998 年在 TED 发表演讲，讨论了现代技术改善生活的力量，但指出了技术无法解决的三个问题：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人类的邪恶、痛苦和死亡。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;最终，只有耶稣基督才能将人类从这些缺点中拯救出来。 随着年龄的增长，见证和体验生活中各种不同的事物，我越来越相信这一点。&lt;/p&gt;
+&lt;p&gt;他的完整演讲：
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/90mj79GqWhc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>图灵测试与人的判断</title>
+      <link>http://localhost:1313/zh-cn/engr/turing_test_and_human_judgement/</link>
+      <pubDate>Fri, 18 Nov 2022 16:57:50 -0500</pubDate>
+      <guid>http://localhost:1313/zh-cn/engr/turing_test_and_human_judgement/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本站的所有文章都默认为英文，中文版本由Google Translate 翻译。&lt;br&gt;
+由于时间限制，并非所有文章都有中文版本。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;自从阿兰.图灵于 1950 年引入测试机器是否智能以来，图灵测试一直是人工智能哲学中一个重要且有影响力的概念。&lt;/p&gt;
+&lt;p&gt;图灵测试本身很简单，但图灵背后的推理过程却很深刻。&lt;/p&gt;
+&lt;h2 id=&#34;思考与行动&#34;&gt;思考与行动&lt;/h2&gt;
+&lt;p&gt;机器能思考吗？如果计算机可以推理，我们怎么知道呢？&lt;/p&gt;
+&lt;p&gt;树木有智慧吗？他们也能思考吗？我们怎么知道？&lt;/p&gt;
+&lt;p&gt;石头呢？&lt;/p&gt;
+&lt;p&gt;嗯，答案是我们不知道。按照常识，树木不聪明，也不会思考。如果树木和石头真的可以思考，但频率是人类无法理解的，时间尺度是人类无法理解的，那会怎样？&lt;/p&gt;
+&lt;p&gt;图灵以不同的方式处理这个问题，因为思维很难定义和衡量。与其询问机器是否可以思考，不如测量机器的行为更易于管理和现实。如果一个设备的行为和行为是智能的，那么它就是智能的。&lt;/p&gt;
+&lt;h2 id=&#34;人性化与理性化&#34;&gt;人性化与理性化&lt;/h2&gt;
+&lt;p&gt;既然我们已经将机器的行为和行为确定为衡量智能的标准，那么自然会出现一个后续问题：什么是智能？当我们说机器是智能的时，我们指的是什么？&lt;/p&gt;
+&lt;p&gt;智能本身是一个通用词，没有严格的定义。根据 Merriam-Webster，Intelligence 具有以下含义：&lt;/p&gt;
+&lt;p&gt;学习或理解或处理新情况或困难情况的能力&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;应用知识来操纵一个人的环境或抽象思考的能力，以客观标准（如测试）衡量&lt;/li&gt;
+&lt;li&gt;我们有一般的智力。但是，当我们说人工智能时，我们在说什么？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;快速反应就像人类一样。如果一台机器表现得像人类，那么我们就说它是智能的。&lt;/p&gt;
+&lt;p&gt;与思考一样，人的行为也会产生同样的歧义。我们如何定义地球上数十亿人的人道行为？每个人的行为都不同，这取决于他们的文化、社会和经济状况。&lt;/p&gt;
+&lt;p&gt;鉴于人类行为难以定义，用理性行为代替它是合理的，这通常意味着根据给定的输入做出最佳决策，这是数学中定义明确和研究的领域。&lt;/p&gt;
+&lt;h2 id=&#34;飞机与鸟&#34;&gt;飞机与鸟&lt;/h2&gt;
+&lt;p&gt;现代人习惯了飞机和鸟类。&lt;/p&gt;
+&lt;p&gt;一个有趣的问题是“为什么飞机看起来与鸟类不同？”。&lt;/p&gt;
+&lt;p&gt;我们为什么不通过模仿鸟类的外观来设计飞机呢？&lt;/p&gt;
+&lt;p&gt;目标是设计能飞的机器而不是看起来像鸟的机器？鸟类的外表只是表面现象，而空气动力学才是根本。&lt;/p&gt;
+&lt;h2 id=&#34;结束语&#34;&gt;结束语&lt;/h2&gt;
+&lt;p&gt;图灵测试的设计和飞机的设计有一些基本真理：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;以行为而不是思想来判断一个物体或一个人。&lt;/li&gt;
+&lt;li&gt;谨言慎行。避免天真。&lt;/li&gt;
+&lt;li&gt;避免肤浅，寻求根本真理。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>现代城市的怪诞</title>
+      <link>http://localhost:1313/zh-cn/essay/the_grotesqueness_of_modern_cities/</link>
+      <pubDate>Mon, 05 Sep 2022 10:51:09 -0400</pubDate>
+      <guid>http://localhost:1313/zh-cn/essay/the_grotesqueness_of_modern_cities/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本站的所有文章都默认为英文，中文版本由Google Translate 翻译。&lt;br&gt;
+由于时间限制，并非所有文章都有中文版本。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;现代城市的怪诞&#34;&gt;现代城市的怪诞&lt;/h1&gt;
+&lt;h2 id=&#34;现代城市的枯燥与朴素&#34;&gt;现代城市的枯燥与朴素&lt;/h2&gt;
+&lt;p&gt;我经常发现现代城市并不美丽，有时甚至是丑陋的。&lt;/p&gt;
+&lt;p&gt;我在中国的时候就有这种感觉。当时我觉得中国没有多少古典漂亮的建筑是可以理解的，因为中国的老建筑大多是用木头做的，容易着火，更不用说文革期间故意拆除的老建筑了。&lt;/p&gt;
+&lt;p&gt;我期待与加拿大有所不同，但对严酷的现实感到非常失望。从建筑的角度来看，多伦多只不过是中国现代城市的复制品：摩天大楼接踵而至，办公楼接踵而至。&lt;/p&gt;
+&lt;h2 id=&#34;严格的比较&#34;&gt;严格的比较&lt;/h2&gt;
+&lt;h3 id=&#34;约克大学&#34;&gt;约克大学&lt;/h3&gt;
+&lt;p&gt;我不喜欢约克大学的一件事是它朴素而丑陋的校园，尤其是与多伦多大学相比。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;YorkU1&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/life/The_grotesqueness_of_modern_cities/york1.jpeg&#34; title=&#34;York University&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;YorkU2&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/life/The_grotesqueness_of_modern_cities/york2.png&#34; title=&#34;York University&#34;&gt;&lt;/p&gt;
+&lt;p&gt;如图所示，约克大学的所有建筑都是典型的现代和后现代风格，远非美丽。&lt;/p&gt;
+&lt;h2 id=&#34;多伦多大学&#34;&gt;多伦多大学&lt;/h2&gt;
+&lt;p&gt;相反，多伦多大学拥有多伦多最美丽的建筑。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;UofT1&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/life/The_grotesqueness_of_modern_cities/uoft1.jpeg&#34; title=&#34;University of Toronto&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;UofT2&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/life/The_grotesqueness_of_modern_cities/uoft2.jpeg&#34; title=&#34;University of Toronto&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;UofT3&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/life/The_grotesqueness_of_modern_cities/uoft3.webp&#34; title=&#34;University of Toronto&#34;&gt;&lt;/p&gt;
+&lt;p&gt;多伦多大学拥有一些非常古典的文艺复兴和新古典主义风格的建筑。&lt;/p&gt;
+&lt;p&gt;当然，多伦多大学的一个可悲之处在于它的新校区具有典型的现代和后现代风格，不再具有相同的美感。&lt;/p&gt;
+&lt;h2 id=&#34;缺失的美&#34;&gt;缺失的美&lt;/h2&gt;
+&lt;p&gt;现代城市和建筑的问题在于现代主义的基本哲学，它强调形式应该遵循功能，拥抱功能主义和极简主义，拒绝装饰。&lt;/p&gt;
+&lt;p&gt;现代城市是建立在这种现代主义思想之上的，自然缺乏对建筑美的关注。&lt;/p&gt;
+&lt;p&gt;虽然有些人可能会觉得现代建筑很方便，甚至很有吸引力，但我坚信美本身就是有价值的。我更喜欢兼具功能和艺术价值的建筑。&lt;/p&gt;</description>
+    </item>
     <item>
       <title></title>
-      <link>http://localhost:52512/zh-cn/visited_places/</link>
+      <link>http://localhost:1313/zh-cn/visited_places/</link>
       <pubDate>Sun, 31 Jul 2022 20:48:13 -0400</pubDate>
-      <guid>http://localhost:52512/zh-cn/visited_places/</guid>
+      <guid>http://localhost:1313/zh-cn/visited_places/</guid>
       <description>&lt;iframe src=&#34;https://www.google.com/maps/d/u/0/embed?mid=1g9FSghwPSnpOvGU-cVUIMmHCAgsCmO0&amp;amp;ehbc=2E312F&#34; style=&#34;position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;&#34;&gt;
     Your browser doesn&#39;t support iframes!
 &lt;/iframe&gt;</description>
     </item>
     <item>
       <title>Comment Policy</title>
-      <link>http://localhost:52512/zh-cn/comment-policy/</link>
+      <link>http://localhost:1313/zh-cn/comment-policy/</link>
       <pubDate>Sat, 16 Jul 2022 11:57:50 -0400</pubDate>
-      <guid>http://localhost:52512/zh-cn/comment-policy/</guid>
+      <guid>http://localhost:1313/zh-cn/comment-policy/</guid>
       <description>&lt;h2 id=&#34;comment-guidelines&#34;&gt;Comment Guidelines&lt;/h2&gt;
 &lt;p&gt;We love comments about our articles, and we want to hear what you respectfully have to say. Remember to:&lt;/p&gt;
 &lt;ol&gt;
@@ -47,9 +650,9 @@
     </item>
     <item>
       <title>关于</title>
-      <link>http://localhost:52512/zh-cn/about/</link>
+      <link>http://localhost:1313/zh-cn/about/</link>
       <pubDate>Fri, 15 Jul 2022 09:06:36 -0400</pubDate>
-      <guid>http://localhost:52512/zh-cn/about/</guid>
+      <guid>http://localhost:1313/zh-cn/about/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;本站的所有文章都默认为英文，中文版本由Google Translate 翻译。&lt;br&gt;
 由于时间限制，并非所有文章都有中文版本。&lt;/p&gt;
@@ -67,10 +670,37 @@
 &lt;p&gt;我的目标是每年发表 10 篇文章，每篇文章都有深入的研究、研究和思考。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>漫漫征途，新征程</title>
+      <link>http://localhost:1313/zh-cn/essay/a_long_journey/</link>
+      <pubDate>Thu, 14 Jul 2022 16:30:16 -0400</pubDate>
+      <guid>http://localhost:1313/zh-cn/essay/a_long_journey/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本站的所有文章都默认为英文，中文版本由Google Translate 翻译。&lt;br&gt;
+由于时间限制，并非所有文章都有中文版本。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;多伦多之旅&#34;&gt;多伦多之旅&lt;/h1&gt;
+&lt;h2 id=&#34;厦门&#34;&gt;厦门&lt;/h2&gt;
+&lt;p&gt;旅程始于2013年的厦门。作为一名即将毕业的大学生，在美国、加拿大或欧洲攻读硕士学位是我认真考虑的一个选择。但是，经过一些初步研究，我取消了这样的选择，因为我负担不起出国留学的费用，即使是欧洲相对负担得起的选择。和大多数同学一样，我自然而然地找到了工作，开始工作。不过，时间已经播下了种子。&lt;/p&gt;
+&lt;h2 id=&#34;杭州&#34;&gt;杭州&lt;/h2&gt;
+&lt;p&gt;生活还在继续，我在杭州工作。我对这种情况有些满意：在一家有声望的公司工作，薪水很高。我终于在我的生命中第一次获得了相对的财务保障。我可以毫不犹豫地买得起各种东西；我可以帮助家人。父母也很高兴，因为我的工作为他们赢得了亲戚和同事的尊重。外婆也很高兴。虽然加班是生活的一部分，但我觉得很舒服很舒服，工作占用了我所有的时间。对生活还有什么期待？那是 2014 年。&lt;/p&gt;
+&lt;p&gt;在工作的第三年，事情发生了巨大的变化。由于项目计划不周和病态的工作文化，平均每周工作时间从 60 小时跃升至近 80 小时。加班的情况对我们来说变得更加疯狂和难以忍受。我和我的同事只是像僵尸一样毫无希望地应对它。发生这种情况大约 7 个月后，一名同事在晚上 11 点工作时晕倒在地。我们叫了救护车，把他送到了急诊室。整个团队都被这件事震惊了，当晚很多事情都发生了变化。事件发生后，管理层讽刺地宣布，我们应该恢复到每周工作 60 小时，没有人应该工作超过这个时间。生活和工作似乎恢复了正常，但我开始更加关注自己的健康状况恶化以及工程师因加班而死亡的消息越来越频繁。那是 2017 年。&lt;/p&gt;
+&lt;p&gt;我开始探索摆脱这种悲惨和不可持续的局面的可能方法。然而，我没有找到简单的出路。由于复杂的原因，所谓的 996 文化在整个科技行业中流行和无处不在。我的公司比其他公司还不错，因为我的公司会支付加班费，这对于许多小公司来说是很少见的。但是，我下定决心并设法找到了两个解决方案： 1. 为外国公司工作； 2. 移居美国或加拿大。我决定同时采用这两个密钥。&lt;/p&gt;
+&lt;p&gt;因此，我跳槽到了我公司的一位外国竞争对手。最后，我下班后有时间定期锻炼并从健康状况中恢复过来。我有时间重新学习英语并准备学校申请。那是 2018 年。&lt;/p&gt;
+&lt;h2 id=&#34;武汉&#34;&gt;武汉&lt;/h2&gt;
+&lt;p&gt;学校申请和准备工作很棘手，因为工作会耗尽你一天的精力，没有任何东西可供学习。这是一个无休止的决定和后悔循环的漫长过程。然后，Covid 在 2020 年的春节到来。随之而来的是我梦寐以求的学校录取通知书。尽管由于武汉封城，我已经将近三个月没有离开房间，但我感到如释重负和充满希望。尽管Covid给我的计划带来了巨大的困难和不确定性，但我完成了学习签证的所有要求：财务证明、犯罪记录、体检……等等。那是 2020 年。&lt;/p&gt;
+&lt;p&gt;不幸的是，由于 Covid，我们不得不在 9 月远程开始我们的学期。困难重重，但时区差异是最具挑战性的问题。午夜 1 点上课，凌晨 4 点睡觉是很痛苦的。由于 GFW，我们无法访问许多基本服务，因此互联网也很麻烦。快进到 2021 年 4 月，我终于降落在加拿大多伦多。&lt;/p&gt;
+&lt;h2 id=&#34;多伦多&#34;&gt;多伦多&lt;/h2&gt;
+&lt;p&gt;兴奋，不确定，模棱两可！这些是我用来描述我在多伦多的时光的词。我对周围的一切都很兴奋，但对我的未来感到不确定。多伦多需要一些时间来适应和应对天气，尤其是在第一个冬天。我仍然记得面对那些 -20C 的冬天时我是如何反应过度的。&lt;/p&gt;
+&lt;p&gt;现在是 2022 年 7 月。我正式毕业并获得硕士学位。诚然，我在研究生院的时间并不完美，并且因为 Covid 而受到损害。很遗憾，我们大约 90% 的学习都是在线学习的，如果有机会重温一下，我可能会做出不同的决定。&lt;/p&gt;
+&lt;p&gt;无论如何，我已经准备好进入我人生的下一个阶段。我很期待我在多伦多的工作生活。&lt;/p&gt;
+&lt;h2 id=&#34;结束&#34;&gt;结束&lt;/h2&gt;
+&lt;p&gt;事后看来，对我来说最大的动力就是追求更好的生活，就这么简单。最初，这是为了更好地平衡工作与生活。然后环境问题、个人自由和政治环境开始发挥作用。正如托马斯·杰斐逊在 1776 年的《独立宣言》中所写：&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Donate</title>
-      <link>http://localhost:52512/zh-cn/donate/</link>
+      <link>http://localhost:1313/zh-cn/donate/</link>
       <pubDate>Wed, 13 Jul 2022 10:01:45 -0400</pubDate>
-      <guid>http://localhost:52512/zh-cn/donate/</guid>
+      <guid>http://localhost:1313/zh-cn/donate/</guid>
       <description>&lt;p&gt;If you appreciate my content, please consider donating to charities or nonprofits
 to make the world a better place.&lt;/p&gt;
 &lt;p&gt;Here are some of my recommendations:&lt;/p&gt;

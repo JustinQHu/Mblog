@@ -1,21 +1,21 @@
 main:
   - identifier: essay
     name: Essay
-    url: /essay/
+    pageRef: /essay/
     weight: 10
-  - identifier: engineering
+  - identifier: engr
     name: Engineering
-    url: /engr/
+    pageRef: /engr/
     weight: 20
-  - identifier: management
+  - identifier: mgmt
     name: Management
-    url: /mgmt/
+    pageRef: /mgmt/
     weight: 30
   - identifier: travel
     name: Travel
-    url: /travel/
+    pageRef: /travel/
     weight: 40
   - identifier: search
     name: Search
-    url: /search/
+    pageRef: /search/
     weight: 50

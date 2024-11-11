@@ -1,5 +1,5 @@
 ---
-title: "人生"
+title: "随笔"
 cascade:
   type: posts
 type: _default
