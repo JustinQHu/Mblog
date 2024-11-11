@@ -10,8 +10,6 @@ profileMode:
   buttons:
     - name: Archives
       url: archives
-    - name: Categories
-      url: categories
     - name: Tags
       url: tags
 

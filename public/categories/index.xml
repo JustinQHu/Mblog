@@ -2,71 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on LogischerMix</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>http://localhost:50566/categories/</link>
     <description>Recent content in Categories on LogischerMix</description>
     <image>
       <title>LogischerMix</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:50566/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:50566/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.138.0</generator>
     <language>en</language>
     <lastBuildDate>Sat, 19 Oct 2024 15:50:06 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50566/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2024</title>
-      <link>http://localhost:1313/categories/2024/</link>
+      <link>http://localhost:50566/categories/2024/</link>
       <pubDate>Sat, 19 Oct 2024 15:50:06 -0400</pubDate>
-      <guid>http://localhost:1313/categories/2024/</guid>
+      <guid>http://localhost:50566/categories/2024/</guid>
       <description></description>
     </item>
     <item>
       <title>Engineering</title>
-      <link>http://localhost:1313/categories/engineering/</link>
+      <link>http://localhost:50566/categories/engineering/</link>
       <pubDate>Sat, 19 Oct 2024 15:50:06 -0400</pubDate>
-      <guid>http://localhost:1313/categories/engineering/</guid>
+      <guid>http://localhost:50566/categories/engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Life</title>
-      <link>http://localhost:1313/categories/life/</link>
+      <link>http://localhost:50566/categories/life/</link>
       <pubDate>Fri, 22 Mar 2024 13:44:43 -0500</pubDate>
-      <guid>http://localhost:1313/categories/life/</guid>
+      <guid>http://localhost:50566/categories/life/</guid>
       <description></description>
     </item>
     <item>
       <title>2023</title>
-      <link>http://localhost:1313/categories/2023/</link>
+      <link>http://localhost:50566/categories/2023/</link>
       <pubDate>Mon, 25 Dec 2023 15:41:37 -0500</pubDate>
-      <guid>http://localhost:1313/categories/2023/</guid>
+      <guid>http://localhost:50566/categories/2023/</guid>
       <description></description>
     </item>
     <item>
       <title>Synopsis</title>
-      <link>http://localhost:1313/categories/synopsis/</link>
+      <link>http://localhost:50566/categories/synopsis/</link>
       <pubDate>Mon, 25 Dec 2023 15:41:37 -0500</pubDate>
-      <guid>http://localhost:1313/categories/synopsis/</guid>
+      <guid>http://localhost:50566/categories/synopsis/</guid>
       <description></description>
     </item>
     <item>
       <title>Travel</title>
-      <link>http://localhost:1313/categories/travel/</link>
+      <link>http://localhost:50566/categories/travel/</link>
       <pubDate>Sun, 12 Nov 2023 09:36:47 -0500</pubDate>
-      <guid>http://localhost:1313/categories/travel/</guid>
+      <guid>http://localhost:50566/categories/travel/</guid>
       <description></description>
     </item>
     <item>
       <title>Management</title>
-      <link>http://localhost:1313/categories/management/</link>
+      <link>http://localhost:50566/categories/management/</link>
       <pubDate>Mon, 18 Sep 2023 09:56:51 -0400</pubDate>
-      <guid>http://localhost:1313/categories/management/</guid>
+      <guid>http://localhost:50566/categories/management/</guid>
       <description></description>
     </item>
     <item>
       <title>2022</title>
-      <link>http://localhost:1313/categories/2022/</link>
+      <link>http://localhost:50566/categories/2022/</link>
       <pubDate>Fri, 23 Dec 2022 11:01:01 -0500</pubDate>
-      <guid>http://localhost:1313/categories/2022/</guid>
+      <guid>http://localhost:50566/categories/2022/</guid>
       <description></description>
     </item>
   </channel>
