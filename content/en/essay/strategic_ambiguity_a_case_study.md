@@ -1,7 +1,7 @@
 ---
 title: "Strategic Ambiguity: A Case Study of Lauren Daigle, Foreign Policy, and Linguistics(Draft)"  
 date: 2024-03-22T13:44:43-05:00  
-draft: false  
+draft: true  
 categories: ['life', '2024']  
 tags: ['life', 'strategic ambiguity', 'music', 'Lauren Daigle', 'foreign policy', 'linguistics', 'communication', 'strategy']  
 ---
