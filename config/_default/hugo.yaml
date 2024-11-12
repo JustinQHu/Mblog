@@ -60,7 +60,7 @@ params:
   keywords: [Blog, Portfolio, PaperMod]
   author: Justin Hu
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -107,12 +107,12 @@ params:
   socialIcons:
     - name: x
       url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/justin-hu-real"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/JustinQHu"
     - name: email
-      url: logischermix@gmail.com
+      url: "mailto:logischermix@gmail.com"
 
   analytics:
     google:

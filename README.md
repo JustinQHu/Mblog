@@ -27,3 +27,12 @@ Right now,  the site is built and deployed through Cloudflare Pages pipelines.
    >hugo server
 4. Build Static Pages
    > hug
+
+
+## Great Resources for PaperMod
+
+### SetUp
+https://github.com/adityatelange/hugo-PaperMod
+
+### Customization
+https://kyxie.github.io/en/blog/tech/papermod/

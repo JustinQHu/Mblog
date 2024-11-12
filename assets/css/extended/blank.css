@@ -74,3 +74,11 @@
 .toc li a:hover {
     color: var(--secondary);
 }
+
+
+body {
+    font-family: "Itim", cursive;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+}
