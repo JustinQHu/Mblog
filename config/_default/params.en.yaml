@@ -12,6 +12,9 @@ profileMode:
       url: archives
     - name: Tags
       url: tags
+    - name: About
+      url: about
+
 
 
 footer:
