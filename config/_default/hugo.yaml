@@ -24,7 +24,7 @@ languages:
     disabled: false
     languageCode: en-us
     languageDirection: ltr
-    languageName: English
+    languageName: English 🇨🇦
     weight: 1
     title: LogischerMix
     taxonomies:
@@ -35,7 +35,7 @@ languages:
     disabled: false
     languageCode: zh-CN
     languageDirection: ltr
-    languageName: 简体中文
+    languageName: 简体中文 🇨🇳
     weight: 2
     title: LogischerMix
     taxonomies:
@@ -84,7 +84,7 @@ params:
   images: ["avatar.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
-  disableThemeToggle: true
+  disableThemeToggle: false
 
   displayFullLangName: true
   ShowReadingTime: true
