@@ -10,7 +10,7 @@ Python is a popular programming language, especially in scripting,  web developm
 ML/AI domains. 
 
 According to [TIOBE Programming Language Index](https://www.tiobe.com/tiobe-index/), Python has become the most popular programming since 2022, exceeding good old C:
-![programming language ranking](/se/programming_language_ranking.png "programming language ranking")
+![programming language ranking](/engr/programming_language_ranking.png "programming language ranking")
 
 Python has gained popularity because of its flat learning curve (compared to other languages such as C/C++), human-readable
 code, and thriving ecosystems. However, Developers have always complained about python not being fast or even slower than other

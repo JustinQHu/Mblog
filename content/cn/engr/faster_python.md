@@ -12,7 +12,7 @@ draft: false
 Python 是一种流行的编程语言，尤其是在脚本、Web 开发、数据分析和 ML/AI 领域。
 
 根据 TIOBE 编程语言索引，Python 已经成为 2022 年以来最流行的编程语言，超过了 C：
-![programming language ranking](/se/programming_language_ranking.png "programming language ranking")
+![programming language ranking](/engr/programming_language_ranking.png "programming language ranking")
 
 
 Python 因其平坦的学习曲线（与 C/C++ 等其他语言相比）、人类可读的代码和繁荣的生态系统而受到欢迎。 然而，开发人员总是抱怨 python 不比 JS 或 Lua 等其他解释语言快，甚至慢。

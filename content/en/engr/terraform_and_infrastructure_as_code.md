@@ -307,7 +307,7 @@ CONTAINER ID   IMAGE          COMMAND                  CREATED              STAT
 
 visit localhost:8000 in the browser:
 
-![Terraform NGINX](/se/terraform/terraform_docker_nginx.png "Terraform Run NGINX")
+![Terraform NGINX](/engr/terraform/terraform_docker_nginx.png "Terraform Run NGINX")
 
 ### Terraform Provisions Azure Cloud Resource
 

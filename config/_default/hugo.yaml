@@ -13,6 +13,16 @@ minify:
   disableXML: true
   minifyOutput: true
 
+# Necessary for post nav links to show up on different sections.   
+# tricky part is that first one must be posts. even though you don't a menu for it.
+# https://github.com/adityatelange/hugo-PaperMod/issues/940
+mainSections:
+  - posts
+  - essay
+  - engr
+  - mgmt
+  - travel
+
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 
@@ -109,14 +119,6 @@ params:
   # And https://github.com/adityatelange/hugo-PaperMod/commit/fc87fc3a29e8e515dff866159601a734e3ad4a2f
   # Note from https://github.com/adityatelange/hugo-PaperMod/issues/702 that post must have date to be archived
   ShowAllPagesInArchive: true
-
-  # Necessary for post nav links to show up on different sections.   Need keep sync with main menu definetion
-  # https://github.com/adityatelange/hugo-PaperMod/issues/940
-  mainSections:
-    - essay
-    - engr
-    - mgmt
-    - travel
 
 
   assets:

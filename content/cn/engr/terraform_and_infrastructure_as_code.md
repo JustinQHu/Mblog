@@ -294,7 +294,7 @@ CONTAINER ID   IMAGE          COMMAND                  CREATED              STAT
 
 在浏览器中访问 localhost:8000:
 
-![Terraform NGINX](/se/terraform/terraform_docker_nginx.png "Terraform Run NGINX")
+![Terraform NGINX](/engr/terraform/terraform_docker_nginx.png "Terraform Run NGINX")
 
 ### Terraform 提供 Azure 云资源
 
