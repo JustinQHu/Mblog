@@ -2,7 +2,7 @@ baseURL: https://logischermix.com/
 languageCode: en-us
 title: LogischerMix
 theme: PaperMod
-paginate: 10
+paginate: 5
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -22,7 +22,7 @@ languages:
   en:
     contentDir: content/en
     disabled: false
-    languageCode: en
+    languageCode: en-us
     languageDirection: ltr
     languageName: English
     weight: 1
@@ -30,47 +30,68 @@ languages:
     taxonomies:
       category: categories
       tag: tags
-      series: series
   zh-cn:
     contentDir: content/cn
     disabled: false
-    languageCode: zh-cn
+    languageCode: zh-CN
     languageDirection: ltr
     languageName: 简体中文
     weight: 2
     title: LogischerMix
+    taxonomies:
+      category: categories
+      tag: tags
 
 
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
+  tableOfContents:
+    # Without this, Hugo ToC doesn't show h4 and higher
+    # https://github.com/alex-shpak/hugo-book/issues/52
+    endLevel: 6
+
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
 
+# needed to ensure different manifestations of the site work. 
+# after adding outputs to JSON,  search works now (at least locally)
+outputs:
+  home:
+  # To create webpages. 
+    - HTML
+  # To create RSS Feed
+    - RSS
+  # To create an index.json so search works on the site
+    - JSON
+
+# https://github.com/adityatelange/hugo-PaperMod/wiki/Variables
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: LogischerMix
+  # This is shown when website is posted in Discord and other socials
   description: "Technology, Engineering, Business, Travel, and Life."
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords: [Technology, Engineering, Business, Travel, Life]
   author: Justin Hu
   # author: ["Me", "You"] # multiple authors
+  # Image displayed when posting site link on socials
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
-  disableThemeToggle: false
+  disableThemeToggle: true
 
   displayFullLangName: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowPageNums: true
   ShowRssButtonInSectionTermList: true
@@ -82,9 +103,24 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: true
+  # this fixed Archives page
+  # Without this, archive doesn't show all pages
+  # See https://github.com/adityatelange/hugo-PaperMod/issues/912
+  # And https://github.com/adityatelange/hugo-PaperMod/commit/fc87fc3a29e8e515dff866159601a734e3ad4a2f
+  # Note from https://github.com/adityatelange/hugo-PaperMod/issues/702 that post must have date to be archived
+  ShowAllPagesInArchive: true
+
+  # Necessary for post nav links to show up on different sections.   Need keep sync with main menu definetion
+  # https://github.com/adityatelange/hugo-PaperMod/issues/940
+  mainSections:
+    - essay
+    - engr
+    - mgmt
+    - travel
+
 
   assets:
-    # disableHLJS: true # to disable highlight.js
+    disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "<link / abs url>"
     favicon16x16: "<link / abs url>"
@@ -92,17 +128,11 @@ params:
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
+  # # Logo and name shown on top left of site
   label:
-    text: "Home"
+    text: "LogischerMix"
     icon: /apple-touch-icon.png
     iconHeight: 35
-
-
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
 
   socialIcons:
     - name: x
