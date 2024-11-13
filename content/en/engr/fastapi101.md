@@ -121,13 +121,13 @@ FastAPI has interactive API docs built-in by default.
 
 Go to */docs*,  we can the interactive API docs:
 
-![Automatic API Documentation](/se/fastapi101/apidoc_swaggerui.png "Automatic Interactive Doc with Swagger UI")
+![Automatic API Documentation](/engr/fastapi101/apidoc_swaggerui.png "Automatic Interactive Doc with Swagger UI")
 
 #### Automatic API doc with ReDoc
 
 Go to */redoc*,  we can see another automatic API documentation:
 
-![Automatic API Documentation](/se/fastapi101/apidoc_redoc.png "Automatic Doc with Redoc")
+![Automatic API Documentation](/engr/fastapi101/apidoc_redoc.png "Automatic Doc with Redoc")
 
 ## General Thoughts
 

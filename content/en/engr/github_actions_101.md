@@ -64,11 +64,11 @@ Committing the workflow file to your branch
 > 2. Under your repository name, click  Actions.
 > 3. In the left sidebar, click the workflow you want to display
 
-![Github Action Workflow](/se/githubactions/github_action_workflows.png "Workflows")
+![Github Action Workflow](/engr/githubactions/github_action_workflows.png "Workflows")
 
-![Github Action Workflow](/se/githubactions/workflow_runs.png "Workflow Runs")
+![Github Action Workflow](/engr/githubactions/workflow_runs.png "Workflow Runs")
 
-![GitHub Action Workflow](/se/githubactions/workflow_run_logs.png "Run Logs")
+![GitHub Action Workflow](/engr/githubactions/workflow_run_logs.png "Run Logs")
 
 ## Compare GitHub Actions with Jenkins
 

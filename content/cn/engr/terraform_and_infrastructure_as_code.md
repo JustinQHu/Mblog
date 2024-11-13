@@ -28,7 +28,7 @@ tags: ['工程','技术', 'IaC', 'Terraform', '基础设施即代码']
 
 Terraform 依赖不同的服务提供商来实际管理不同平台上的基础设施资源。服务提供商实际上是一个使用上游平台 API 来配置资源的模块。
 
-![Terraform Flow](/se/terraform/terraform_flow.png "Terraform Flow")
+![Terraform Flow](/engr/terraform/terraform_flow.png "Terraform Flow")
 使用 Terraform 部署基础设施有 5 个步骤：
 
 >

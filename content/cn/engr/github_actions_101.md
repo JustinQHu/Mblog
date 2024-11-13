@@ -61,11 +61,11 @@ jobs:
 >2. 在您的存储库名称下，单击“操作”。
 >3. 在左侧边栏中，单击要显示的工作流
 
-![Github Action Workflow](/se/githubactions/github_action_workflows.png "Workflows")
+![Github Action Workflow](/engr/githubactions/github_action_workflows.png "Workflows")
 
-![Github Action Workflow](/se/githubactions/workflow_runs.png "Workflow Runs")
+![Github Action Workflow](/engr/githubactions/workflow_runs.png "Workflow Runs")
 
-![GitHub Action Workflow](/se/githubactions/workflow_run_logs.png "Run Logs")
+![GitHub Action Workflow](/engr/githubactions/workflow_run_logs.png "Run Logs")
 
 ## 将 GitHub Actions 与 Jenkins 进行比较
 

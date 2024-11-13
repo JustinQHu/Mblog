@@ -37,7 +37,7 @@ features and interfaces.
 Terraform relies on different service providers to actual manage infrastructure resources on different platforms.
 Service provider is actually a module that use upstream platform APIs to provision resources.
 
-![Terraform Flow](/se/terraform/terraform_flow.png "Terraform Flow")
+![Terraform Flow](/engr/terraform/terraform_flow.png "Terraform Flow")
 
 There are 5 steps to deploy infrastructure with Terraform:
 >
