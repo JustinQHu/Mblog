@@ -81,7 +81,7 @@ params:
   author: Justin Hu
   # author: ["Me", "You"] # multiple authors
   # Image displayed when posting site link on socials
-  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["avatar.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: true

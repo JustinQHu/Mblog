@@ -3,7 +3,7 @@ profileMode:
   enabled: true # needs to be explicitly set
   title: Justin Hu
   subtitle: "Many are called but few are chosen!"
-  imageUrl: "<img location>"
+  imageUrl: "/avatar.png"
   imageWidth: 120
   imageHeight: 120
   imageTitle: my image
