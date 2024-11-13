@@ -9,6 +9,7 @@
 3. Reorg content,  combining 'Synopsis' and 'life' to 'eassy'
 4. Upgrade Hugo to latest version (0.138.0) and reorg refactor to using yaml
 5. Move them override work to site level, rathen modifying theme files directly
+6. new Archives page and new search page
 
 2.0.0:
 
