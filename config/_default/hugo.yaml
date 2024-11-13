@@ -135,8 +135,6 @@ params:
     iconHeight: 35
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
     - name: linkedin
       url: "https://www.linkedin.com/in/justin-hu-real"
     - name: github
