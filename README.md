@@ -47,7 +47,8 @@ Right now,  the site is built and deployed through Cloudflare Pages pipelines.
    >hugo server
 4. Build Static Pages
    > hugo
-
+5. Build for Production
+   > hugo --minify -e production
 
 ## Great Resources for PaperMod
 
@@ -63,3 +64,6 @@ https://github.com/jesse-wei/jessewei.dev-PaperMod/blob/main/config.yml
 ### Giscus Comments function for Hugo, powered by GitHub Discussion
 https://www.softwarecraftsperson.com/posts/2024-02-04-blog-comments-using-utterances/
 https://www.lixueduan.com/posts/blog/02-add-giscus-comment/
+
+### Config Google Analytics for PaperMod
+https://github.com/adityatelange/hugo-PaperMod/discussions/248

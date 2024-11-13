@@ -81,6 +81,14 @@ outputs:
   # To create an index.json so search works on the site
     - JSON
 
+
+# Google Analytics Config
+# https://github.com/adityatelange/hugo-PaperMod/discussions/248
+services:
+  googleAnalytics: 
+    ID: G-9GZ22C44XK
+
+
 # https://github.com/adityatelange/hugo-PaperMod/wiki/Variables
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -148,7 +156,7 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "G-9GZ22C44XK"
+      SiteVerificationTag: ""
     bing:
       SiteVerificationTag: ""
     yandex:
