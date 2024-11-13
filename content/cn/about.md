@@ -22,7 +22,8 @@ class ThisSite:
         self.name = "LogischerMix"
         self.framework = "Hugo"
         self.theme = "PaperMod"
-        self.version = "2.0.0"
+        self.version = "3.0.0"
+        self.comment_system = "giscus"
         self.hosting = "Cloudflare Pages"
         self.objective = "A place to allow me to learn systematically and share"
 ```

@@ -1,5 +1,24 @@
 # Mblog
 
+## Releases
+
+3.0.0:
+
+1. Moving to PaperMod theme with Hugo
+2. Using Giscus for commentting
+3. Reorg content,  combining 'Synopsis' and 'life' to 'eassy'
+4. Upgrade Hugo to latest version (0.138.0) and reorg refactor to using yaml
+5. Move them override work to site level, rathen modifying theme files directly
+
+2.0.0:
+
+1. Moving to Hugo with Loveit theme
+2. Using Disqus for commentting 
+
+1.0.0:
+
+1. Personal blog built on Wordpress (lost conent)
+
 ## Purpose
 
 Repo for the source files(except the static files after build) of personal blog.
@@ -39,3 +58,7 @@ https://kyxie.github.io/en/blog/tech/papermod/
 
 ### Config example and explanation
 https://github.com/jesse-wei/jessewei.dev-PaperMod/blob/main/config.yml
+
+### Giscus Comments function for Hugo, powered by GitHub Discussion
+https://www.softwarecraftsperson.com/posts/2024-02-04-blog-comments-using-utterances/
+https://www.lixueduan.com/posts/blog/02-add-giscus-comment/

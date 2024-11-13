@@ -85,6 +85,8 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: LogischerMix
+  # self-defined para to be used in copyright ,  overriding footer.html
+  startYear: 2022
   # This is shown when website is posted in Discord and other socials
   description: "Technology, Engineering, Business, Travel, and Life."
   keywords: [Technology, Engineering, Business, Travel, Life]
