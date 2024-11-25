@@ -3,13 +3,13 @@ main:
     name: Essay
     pageRef: /essay/
     weight: 10
-  - identifier: engr
+  - identifier: engineering
     name: Engineering
-    pageRef: /engr/
+    pageRef: /engineering/
     weight: 20
-  - identifier: mgmt
-    name: Management
-    pageRef: /mgmt/
+  - identifier: business
+    name: Business
+    pageRef: /business/
     weight: 30
   - identifier: travel
     name: Travel

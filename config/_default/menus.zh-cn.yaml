@@ -5,11 +5,11 @@ main:
     weight: 10
   - identifier: engineering
     name: 技术
-    url: /engr/
+    url: /engineering/
     weight: 20
-  - identifier: management
-    name: 管理
-    url: /mgmt/
+  - identifier: business
+    name: 商业
+    url: /business/
     weight: 30
   - identifier: travel
     name: 旅途

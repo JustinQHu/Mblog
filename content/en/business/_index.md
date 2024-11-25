@@ -1,5 +1,5 @@
 ---
-title: "管理"
+title: "Business"
 cascade:
   type: posts
 type: _default
