@@ -17,19 +17,19 @@ cover:
 
 ## Algonquin Provincial Park
 
-[Algonquin Provincial Park](https://en.wikipedia.org/wiki/Algonquin_Provincial_Park) is Ontario's oldest provincial park which was established in 1893.
+[Algonquin Provincial Park](https://en.wikipedia.org/wiki/Algonquin_Provincial_Park) is Ontario’s oldest provincial park which was established in 1893.
 
-It has a astonishing size of 7,653 km2, making it larger than Canadian's smallest province: [Prince Edward Island](https://en.wikipedia.org/wiki/Prince_Edward_Island) (5660 km2). It's also about the same size as the US states of [Delaware](https://en.wikipedia.org/wiki/Delaware) and [Rhode Island](https://en.wikipedia.org/wiki/Rhode_Island)combined, accordingly to this [FAQ](https://www.algonquinpark.on.ca/visit/general_park_info/faqs.php#:~:text=Q%3A%20How%20big%20is%20Algonquin,(1%2C045%20square%20miles)%20combined.) in the park's official website.
+It has an astonishing size of 7,653 km2, making it larger than Canada’s smallest province: [Prince Edward Island](https://en.wikipedia.org/wiki/Prince_Edward_Island) (5660 km2). It’s also about the same size as the US states of [Delaware](https://en.wikipedia.org/wiki/Delaware) and [Rhode Island](https://en.wikipedia.org/wiki/Rhode_Island) combined, according to this [FAQ](https://www.algonquinpark.on.ca/visit/general_park_info/faqs.php#:~:text=Q%3A%20How%20big%20is%20Algonquin,(1%2C045%20square%20miles)%20combined.) on the park’s official website.
 
 ## General Impressions
 
 > 1. It's big. It's gigantic with amazing views.
 > 2. So many different lakes, creeks,  trails, and forests in the park.
-> 3. Driving through Algonquin ([Highway 60](https://en.wikipedia.org/wiki/Ontario_Highway_60)) is a great joy. Enjoy the peace in beautiful nature.
+> 3. Driving through Algonquin ([Highway60](https://en.wikipedia.org/wiki/Ontario_Highway_60)) is a great joy. Enjoy the peace in beautiful nature.
 
 ## The Lookout Trail
 
-ALgonquin is still amazingly beautiful in late fall/early winter; a different type of beauty.
+Algonquin is still amazingly beautiful in late fall/early winter; a different type of beauty.
 
 ![Lookout Trail](/travel/algonquin/lookout_trail_1.jpeg)
 
@@ -49,7 +49,7 @@ ALgonquin is still amazingly beautiful in late fall/early winter; a different ty
 
 ## Algonquin Logging Museum
 
-Algonquin has about 200 years of history of logging. It started as a logging destination, later expanded to recreational usage as a provincial park. Logging before modern invention of mechanic saw and truck was a hard job and many people die logging in Algonquin. The Algonquin logging Museum,  which is a lovely outdoor trail,  explains the history of logging in Algonquin and it's 200 year's evolution and development.
+Algonquin has about 200 years of history of logging. It started as a logging destination and later expanded to recreational usage as a provincial park. Logging before the modern invention of mechanic saw and truck was a hard job and many people died logging in Algonquin. The Algonquin Logging Museum,  which is a lovely outdoor trail,  explains the history of logging in Algonquin and it's 200 year's evolution and development.
 
 ![Algonquin Logging Museum](/travel/algonquin/logging_museum_1.jpeg)
 

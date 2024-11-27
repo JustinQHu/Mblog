@@ -9,7 +9,7 @@ description: "多佛港和伊利湖之旅"
 draft: false # draft or not
 cover:
     image: "/travel/port_dover/port_dover_cover.png"
-    caption: "Port Dover"
+    caption: "多佛港"
     alt: "Port Dover"
     relative: false
 ---

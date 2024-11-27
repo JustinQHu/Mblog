@@ -9,27 +9,27 @@ description: "阿冈昆省立公园之旅"
 draft: false # draft or not
 cover:
     image: "/travel/algonquin/Algonquin_Cover.webp"
-    caption: "Algonquin Provincial Park"
+    caption: "阿冈昆省立公园"
     alt: "Algonquin Provincial Park"
     relative: false
 ---
 
 
-## Algonquin Provincial Park
+## 阿冈昆省立公园
 
-[Algonquin Provincial Park](https://en.wikipedia.org/wiki/Algonquin_Provincial_Park) is Ontario's oldest provincial park which was established in 1893.
+[阿冈昆省立公园](https://en.wikipedia.org/wiki/Algonquin_Provincial_Park)是安大略省最古老的省立公园，成立于 1893 年。
 
-It has a astonishing size of 7,653 km2, making it larger than Canadian's smallest province: [Prince Edward Island](https://en.wikipedia.org/wiki/Prince_Edward_Island) (5660 km2). It's also about the same size as the US states of [Delaware](https://en.wikipedia.org/wiki/Delaware) and [Rhode Island](https://en.wikipedia.org/wiki/Rhode_Island)combined, accordingly to this [FAQ](https://www.algonquinpark.on.ca/visit/general_park_info/faqs.php#:~:text=Q%3A%20How%20big%20is%20Algonquin,(1%2C045%20square%20miles)%20combined.) in the park's official website.
+它的面积高达 7,653 平方公里，比加拿大最小的省份[爱德华王子岛](https://en.wikipedia.org/wiki/Prince_Edward_Islan)（5660 平方公里）还要大。根据公园官方网站上的常见问题解答，它的面积也与美国[特拉华州](https://en.wikipedia.org/wiki/Rhode_Island)和[罗德岛州](https://www.algonquinpark.on.ca/visit/general_park_info/faqs.php#:~:text=Q%3A%20How%20big%20is%20Algonquin,(1%2C045%20square%20miles)%20combined.)的总面积差不多。
 
-## General Impressions
+## 总体印象
 
-> 1. It's big. It's gigantic with amazing views.
-> 2. So many different lakes, creeks,  trails, and forests in the park.
-> 3. Driving through Algonquin ([Highway 60](https://en.wikipedia.org/wiki/Ontario_Highway_60)) is a great joy. Enjoy the peace in beautiful nature.
+> 1. 它很大。它非常巨大，景色令人惊叹。
+> 2. 公园里有这么多不同的湖泊、小溪、小径和森林。
+> 3. 驾车穿过阿冈昆（[60号高速公路](https://en.wikipedia.org/wiki/Ontario_Highway_60)）是一种极大的乐趣。享受美丽大自然中的宁静。
 
-## The Lookout Trail
+## 瞭望步道
 
-ALgonquin is still amazingly beautiful in late fall/early winter; a different type of beauty.
+深秋/初冬的阿冈昆依然美丽得令人惊叹，一种不同寻常的美。
 
 ![Lookout Trail](/travel/algonquin/lookout_trail_1.jpeg)
 
@@ -47,9 +47,9 @@ ALgonquin is still amazingly beautiful in late fall/early winter; a different ty
 
 ![Lookout Trail](/travel/algonquin/lookout_trail_8.jpeg)
 
-## Algonquin Logging Museum
+## 阿冈昆伐木博物馆
 
-Algonquin has about 200 years of history of logging. It started as a logging destination, later expanded to recreational usage as a provincial park. Logging before modern invention of mechanic saw and truck was a hard job and many people die logging in Algonquin. The Algonquin logging Museum,  which is a lovely outdoor trail,  explains the history of logging in Algonquin and it's 200 year's evolution and development.
+阿冈昆有大约 200 年的伐木历史。它最初是一个伐木目的地，后来扩展为省立公园，用于休闲娱乐。在现代机械锯和卡车发明之前，伐木是一项艰苦的工作，许多人在阿冈昆伐木时丧生。阿冈昆伐木博物馆是一条美丽的户外小径，讲述了阿冈昆伐木的历史及其 200 年的演变和发展。
 
 ![Algonquin Logging Museum](/travel/algonquin/logging_museum_1.jpeg)
 
