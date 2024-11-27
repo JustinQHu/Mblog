@@ -14,6 +14,8 @@ cover:
     relative: false
 ---
 
+> 本站的所有文章都默认为英文，中文版本由Google Translate 翻译。  
+> 由于时间限制，并非所有文章都有中文版本。
 
 ## 阿冈昆省立公园
 
