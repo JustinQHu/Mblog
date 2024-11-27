@@ -18,19 +18,19 @@ cover:
 
 [Port Dover](https://en.wikipedia.org/wiki/Port_Dover) is an unincorporated community and former town located in Norfolk County, Ontario, Canada, on the north shore of Lake Erie.
 
-It has a population of about 8000 peopel, according to the 2021 Census.
+It has a population of about 8000 people, according to the 2021 Census.
 
 ## General Impressions
 
-Port Dover is a lovely small beach town.   The town is quite small,  quiet, and beautiful. It has a rich history of fishing unsurprisingly,  and pottery surprisingly.
+Port Dover is a lovely small beach town. The town is quite small, quiet, and beautiful. It has a rich history of fishing unsurprisingly, and pottery surprisingly.
 
-It's about an hour drive from Hamilton. It will be a good neighborhood to raise a family.
+It’s about an hour's drive from Hamilton. It would be a good neighborhood to raise a family.
 
-The drive through highway 6 offers a great view to souther Ontario.
+The drive through Highway 6 offers a great view of southern Ontario.
 
 ## The Beach And Lighthouse
 
-I visitied Port Dover in a big rainy day,  the view of the lake and beach should be much better in any sunny days.
+I visited Port Dover on a rainy day; the view of the lake and beach should be much better on a sunny day.
 
 ![Port Dover](/travel/port_dover/port_dover_1.jpeg)
 
@@ -42,9 +42,9 @@ I visitied Port Dover in a big rainy day,  the view of the lake and beach should
 
 ## Port Dover Harbour Museum
 
-Port Dover has a little cute Museum and it's a great place to learn about the rich history of the town.
+Port Dover has a cute little Museum and it’s a great place to learn about the town's rich history.
 
-Who have thought that Port Dover also had a booming business of exporting alchoho to the U.S.(Erie, Pennsylvania). &#128540;
+Who thought that Port Dover once had a booming business of exporting alcohol to the U.S.(Erie, Pennsylvania)? &#128540;
 
 ![Port Dover Harbour Museum](/travel/port_dover/port_dover_museum_1.jpeg)
 

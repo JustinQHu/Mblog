@@ -14,23 +14,26 @@ cover:
     relative: false
 ---
 
-## Port Dover
+> 本站的所有文章都默认为英文，中文版本由Google Translate 翻译。  
+> 由于时间限制，并非所有文章都有中文版本。
 
-[Port Dover](https://en.wikipedia.org/wiki/Port_Dover) is an unincorporated community and former town located in Norfolk County, Ontario, Canada, on the north shore of Lake Erie.
+## Port Dover 多佛港
 
-It has a population of about 8000 peopel, according to the 2021 Census.
+[多佛港](https://en.wikipedia.org/wiki/Port_Dover)是一个非建制社区，前身是一座城镇，位于加拿大安大略省诺福克县，伊利湖北岸。
 
-## General Impressions
+根据 2021 年人口普查，该市人口约为 8000 人。
 
-Port Dover is a lovely small beach town.   The town is quite small,  quiet, and beautiful. It has a rich history of fishing unsurprisingly,  and pottery surprisingly.
+## 总体印象
 
-It's about an hour drive from Hamilton. It will be a good neighborhood to raise a family.
+多佛港是一个可爱的小海滩小镇。小镇很小，安静而美丽。它有着丰富的捕鱼历史，令人惊讶的是，它还拥有陶器制作的历史。
 
-The drive through highway 6 offers a great view to souther Ontario.
+距离汉密尔顿约一小时车程。这是一个养家的好地方。
 
-## The Beach And Lighthouse
+沿着 6 号高速公路行驶，可以欣赏到安大略省南部的美景。
 
-I visitied Port Dover in a big rainy day,  the view of the lake and beach should be much better in any sunny days.
+## 海滩和灯塔
+
+我去多佛港的时候天是下雨天，天气晴朗的时候，湖泊和海滩的景色应该会更美。
 
 ![Port Dover](/travel/port_dover/port_dover_1.jpeg)
 
@@ -40,11 +43,11 @@ I visitied Port Dover in a big rainy day,  the view of the lake and beach should
 
 ![Port Dover](/travel/port_dover/port_dover_4.jpeg)
 
-## Port Dover Harbour Museum
+## 多佛港港口博物馆
 
-Port Dover has a little cute Museum and it's a great place to learn about the rich history of the town.
+多佛港有一座可爱的小博物馆，是了解该镇丰富历史的好地方。
 
-Who have thought that Port Dover also had a booming business of exporting alchoho to the U.S.(Erie, Pennsylvania). &#128540;
+谁能想到多佛港曾经有一项蓬勃发展的向美国（宾夕法尼亚州伊利市）出口酒精的生意？
 
 ![Port Dover Harbour Museum](/travel/port_dover/port_dover_museum_1.jpeg)
 
