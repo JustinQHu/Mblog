@@ -7,15 +7,19 @@ main:
     name: Engineering
     pageRef: /engineering/
     weight: 20
+  - identifier: ai
+    name: AI
+    pageRef: /ai/
+    weight: 30
   - identifier: business
     name: Business
     pageRef: /business/
-    weight: 30
+    weight: 40
   - identifier: travel
     name: Travel
     pageRef: /travel/
-    weight: 40
+    weight: 50
   - identifier: search
     name: Search
     pageRef: /search/
-    weight: 50
+    weight: 60
