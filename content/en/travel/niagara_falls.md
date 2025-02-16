@@ -1,21 +1,23 @@
 ---
 title: "Niagara Falls"
-date: 2023-09-22T09:15:49-04:00  
+date: 2023-09-22T09:15:49-04:00
+lastmod: 2025-02-16T10:11:49-05:00  
 categories: ['travel', '2023']    
 tags: ['travel', 'Niagara Falls', 'The Rainbow bridge', 'Niagara River']    
 draft: false
 ---
 
+>To compare the summer views with winter views:  [Niafara Falls in Witer](/travel/nagara_falls_in_winter/)
+
 [Niagara Falls](https://en.wikipedia.org/wiki/Niagara_Falls) is one of the most famous waterfalls in the world, spanning the border between Ontario in Canada 
 and New York in the United States. It comprises three falls (from right to left): Horseshoe Falls,  Bridal Falls,  and American Falls.
+
 
 Impressions:
 > 1. Canada side has the best view;
 > 2. The Rainbow bridge connecting Canada and the U.S. is not misnamed cause there are rainbows;
 > 3. Be prepared to get wet; it's like a heavy rain for the water drops more than 50 meters and a lot of water droplets bounce back;
-> 4. Parking is expensive; it costs $35 dollars for 3 hours parking at 6635 Niagara River Pkwy, which is the closest parking lot to the fall 
-
-
+> 4. Parking is expensive; it costs $35 dollars for 3 hours parking at 6635 Niagara River Pkwy, which is the closest parking lot to the fall
 
 ![Niagara Falls](/travel/niagara_falls/niagarafalls_1.jpeg "Niagara Falls")  
 ![Niagara Falls](/travel/niagara_falls/niagarafalls_2.jpeg "Niagara Falls")  
