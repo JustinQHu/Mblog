@@ -5,53 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activity Spinner</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            display: flex;
-            height: 100vh;
+            min-height: 100vh;
             background-color: #f0f0f0;
         }
 
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
         .activity-list {
-            width: 25%;
-            padding: 20px;
+            width: 100%;
+            padding: 15px;
             background-color: #fff;
-            border-right: 1px solid #ddd;
-            overflow-y: auto;
+            border-bottom: 1px solid #ddd;
         }
 
         .wheel-container {
-            width: 75%;
+            width: 100%;
+            padding: 15px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
-            padding: 20px;
         }
 
         #activities {
             list-style: none;
             padding: 0;
-            margin: 20px 0;
+            margin: 15px 0;
         }
 
         #activities li {
-            padding: 10px;
+            padding: 8px;
             margin: 5px 0;
             background-color: #f8f8f8;
             border-radius: 5px;
+            word-wrap: break-word;
         }
 
         .input-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
             margin-bottom: 15px;
         }
 
         #activityInput {
             padding: 8px;
-            width: 70%;
-            margin-right: 5px;
+            flex: 1;
+            min-width: 150px;
         }
 
         button {
@@ -61,6 +74,7 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            font-size: 14px;
         }
 
         button:hover {
@@ -76,14 +90,14 @@
         }
 
         #spinBtn {
-            margin-top: 20px;
-            padding: 12px 24px;
+            margin-top: 15px;
+            padding: 10px 20px;
             font-size: 16px;
         }
 
         .wheel {
-            width: 300px;
-            height: 300px;
+            width: min(80vw, 300px);
+            height: min(80vw, 300px);
             border-radius: 50%;
             position: relative;
             overflow: hidden;
@@ -101,42 +115,72 @@
 
         .pointer {
             position: absolute;
-            top: -20px;
+            top: -15px;
             left: 50%;
             transform: translateX(-50%);
             width: 0;
             height: 0;
-            border-left: 15px solid transparent;
-            border-right: 15px solid transparent;
-            border-top: 30px solid #333;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 20px solid #333;
             z-index: 2;
         }
 
         #result {
-            margin-top: 20px;
-            font-size: 20px;
+            margin-top: 15px;
+            font-size: 18px;
             font-weight: bold;
-            min-height: 24px;
+            text-align: center;
+            min-height: 22px;
+            padding: 0 10px;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row;
+                height: 100vh;
+            }
+
+            .activity-list {
+                width: 25%;
+                border-bottom: none;
+                border-right: 1px solid #ddd;
+                height: 100%;
+                overflow-y: auto;
+            }
+
+            .wheel-container {
+                width: 75%;
+            }
+
+            .pointer {
+                top: -20px;
+                border-left: 15px solid transparent;
+                border-right: 15px solid transparent;
+                border-top: 30px solid #333;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="activity-list">
-        <h2>Activities</h2>
-        <div class="input-group">
-            <input type="text" id="activityInput" placeholder="Enter activity">
-            <button onclick="addActivity()">Add</button>
+    <div class="container">
+        <div class="activity-list">
+            <h2>Activities</h2>
+            <div class="input-group">
+                <input type="text" id="activityInput" placeholder="Enter activity">
+                <button onclick="addActivity()">Add</button>
+            </div>
+            <button id="removeBtn" onclick="removeActivity()">Remove Last</button>
+            <ul id="activities"></ul>
         </div>
-        <button id="removeBtn" onclick="removeActivity()">Remove Last</button>
-        <ul id="activities"></ul>
-    </div>
 
-    <div class="wheel-container">
-        <div class="wheel" id="wheel">
-            <div class="pointer"></div>
+        <div class="wheel-container">
+            <div class="wheel" id="wheel">
+                <div class="pointer"></div>
+            </div>
+            <button id="spinBtn" onclick="spinWheel()">Spin</button>
+            <div id="result"></div>
         </div>
-        <button id="spinBtn" onclick="spinWheel()">Spin</button>
-        <div id="result"></div>
     </div>
 
     <script>
@@ -178,7 +222,6 @@
             const result = document.getElementById('result');
             result.textContent = '';
             
-            // Calculate random spin (3-6 full rotations plus random angle)
             const extraRotations = Math.floor(Math.random() * 3) + 3;
             const randomAngle = Math.floor(Math.random() * 360);
             const totalRotation = (extraRotations * 360) + randomAngle;
@@ -186,7 +229,6 @@
             wheel.style.transform = `rotate(${totalRotation}deg)`;
             
             setTimeout(() => {
-                // Calculate selected activity based on final position
                 const segmentAngle = 360 / Math.max(activities.length, 1);
                 const finalAngle = randomAngle % 360;
                 const selectedIndex = Math.floor(finalAngle / segmentAngle);
@@ -202,7 +244,6 @@
             }, 3000);
         }
 
-        // Add activity with Enter key
         document.getElementById('activityInput').addEventListener('keypress', function(e) {
             if (e.key === 'Enter') {
                 addActivity();
