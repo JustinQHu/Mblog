@@ -167,7 +167,7 @@
         <div class="activity-list">
             <h2>Activities</h2>
             <div class="input-group">
-                <input type="text" id="activityInput" placeholder="Enter activity">
+                <input type="text" id="activityInput" placeholder="Enter activities (comma-separated)">
                 <button onclick="addActivity()">Add</button>
             </div>
             <button id="removeBtn" onclick="removeActivity()">Remove Last</button>
@@ -189,11 +189,20 @@
 
         function addActivity() {
             const input = document.getElementById('activityInput');
-            const activity = input.value.trim();
-            if (activity) {
-                activities.push(activity);
-                updateActivityList();
-                input.value = '';
+            const inputValue = input.value.trim();
+            
+            if (inputValue) {
+                // Split the input by commas and process each item
+                const newActivities = inputValue.split(',')
+                    .map(item => item.trim()) // Remove whitespace from each item
+                    .filter(item => item !== ''); // Remove empty items
+                
+                // Add all valid activities to the array
+                if (newActivities.length > 0) {
+                    activities.push(...newActivities);
+                    updateActivityList();
+                    input.value = ''; // Clear the input field
+                }
             }
         }
 
