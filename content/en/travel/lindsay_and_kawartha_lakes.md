@@ -2,7 +2,7 @@
 title: "Lindsay and Kawartha Lakes"
 date: 2025-03-16T13:31:47-04:00
 lastmod: 2025-03-16T13:31:47-04:00
-author: ["Justin Hu", "Ollie Xu"]
+author: ["Justin Hu"]
 categories: ['travel']
 tags: ['travel', 'Lindsay', 'Kawartha Lakes']
 description: "a short road trip to Lindsay and Kawartha Lakes"
