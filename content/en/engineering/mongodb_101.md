@@ -117,7 +117,7 @@ docker run --name mongo-test -d mongo:latest
 we should see a mongo container running:
 ![MongoDB](/engr/mongo/mongodb-2.png)
 
-Exec into the container and use ```ps``` command to verify if mango is running:
+Exec into the container and use ```ps``` command to verify if mongodb is running:
 
 ![MongoDB](/engr/mongo/mongodb-3.png)
 
