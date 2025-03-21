@@ -34,9 +34,9 @@ To understand MongoDB, you need to grasp a few core concepts:
 
     ```json
     {
-    "name": "Alice",
-    "age": 29,
-    "city": "New York"
+        "name": "Alice",
+        "age": 29,
+        "city": "New York"
     }
     ```
 
